@@ -1,0 +1,183 @@
+@font-face{
+    font-family: 'roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+    
+}
+@font-face {
+   font-family: 'releway';
+   src: url("../fonts/Raleway-Regular.ttf");
+}
+
+body{
+       
+font-family: 'lato';
+   }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "roboto"; 
+}
+p, span, b {
+    font-family: "releway";  
+}
+
+.azul {
+   color: $azul;
+}
+
+.gris {
+   color: $gris;
+}
+
+.blanco {
+   color: $blanco;
+}
+
+.contedor_logo{
+   img{
+      width: 30%;
+      height: 30%;
+      
+   }
+}
+
+.fondo_buscador{
+   background-color: $blanco;
+}
+
+.fondo_buscador1{
+   background-color: $azul;
+   a{
+      color: $blanco;
+   }
+}
+.fondo_div{
+   background-color: $gris;
+}
+
+.lista_redes{
+   list-style: none;
+   display: flex;
+}
+.estilo_icono_foot{
+    display: block;
+    -webkit-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    background: transparent;
+    border-radius: 30%;
+    -moz-border-radius: 30%;
+    -webkit-border-radius: 30%;
+    border: 1px solid #c2c2c2;
+    &:hover{
+       background-color: $gris;
+       color: white;;
+    }
+}
+.color_iconos{
+   &:hover{
+      color: $azul;
+   }
+}
+.espacio_top{
+   padding-top: 9% !important;
+}
+.color_llamanos{
+   color: $blanco;
+   a{
+      text-decoration: none;
+      color: $blanco;
+   &:hover{
+      color: $azul;
+   }
+   }
+}
+
+.color_facebook{
+   color: #3A559F;
+   &:hover{
+      color: $azul;
+   }
+}
+.color_insta{
+   color: #cf3c6d;
+   &:hover{
+      color: $azul;
+   }
+}
+.color_wapp{
+   color: #00E676;
+   &:hover{
+      color: $azul;
+   }
+}
+
+.logo_pse{
+   width: 11%;
+   height: 10%;
+   margin-top: -9px;
+   transition: all 200ms ease-in-out;
+   &:hover {
+      transform: scale(1.1);
+  }
+}
+.option_menu{
+   padding: 0 15px;
+    line-height: 46px;
+    
+}
+.btn_buscar{
+   width: 100%;
+    color: #ffffff;
+    background-color: $gris;
+    border: 1px solid $gris;
+    font-size: 14px;
+    padding: 10px;
+    &:hover{
+      color: #ffffff;
+      background-color: $azul;
+      border: 1px solid $azul;
+    }
+}
+.form-control{
+color: $gris !important;
+}
+.btn_avanzado{
+color: $azul;
+   &:focus{
+      outline: 0!important;
+      outline-offset: 0!important;
+      background-image: none!important;
+      -webkit-box-shadow: none!important;
+      box-shadow: none!important;
+   }
+  &:hover{
+   outline: 0!important;
+   outline-offset: 0!important;
+   background-image: none!important;
+   -webkit-box-shadow: none!important;
+   box-shadow: none!important;
+  }
+}
+.segund_div_buscador{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-right: 41px !important;
+   padding-left: 41px !important;
+   
+}
+.div_buscador{
+   margin-top: 0%;
+   padding-right: 41px !important;
+   padding-left: 41px !important;
+   margin-bottom: -2% !important;
+}
+#buscador{
+   padding: 20px 0;
+   box-shadow: 0 2px 2px rgba(0,0,0,.2);
+   background-color: #ffffff;
+   
+}
