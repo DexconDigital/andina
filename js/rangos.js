@@ -273,8 +273,8 @@
         config = {
             type: "single",
 
-            min: 10,
-            max: 100,
+            min: 500,
+            max: 500,
             from: null,
             to: null,
             step: 1,
@@ -314,7 +314,7 @@
             hide_from_to: false,
 
             prefix: "",
-            postfix: " $",
+            postfix: "",
             max_postfix: "",
             decorate_both: true,
             values_separator: " â€” ",
@@ -2019,7 +2019,7 @@
         },
 
         decorate: function (num, original) {
-            var decorated = ""
+            var decorated = "$"
             var metros = "",
                 o = this.options;
 
@@ -2379,7 +2379,7 @@ var $range = $(".js-range-slider"),
     $inputTo = $(".js-input-to"),
     instance,
     min = 0,
-    max = 500,
+    max = 12000000,
     from = 0,
     to = 0;
 
@@ -2388,11 +2388,11 @@ $range.ionRangeSlider({
     min: min,
     max: max,
     from: 0,
-    to: 80,
+    to: 5000000,
     prefix: '',
     onStart: updateInputs,
     onChange: updateInputs,
-    step: 10,
+    step: 500,
     prettify_enabled: true,
     prettify_separator: ".",
   values_separator: " - ",

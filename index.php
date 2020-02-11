@@ -1,6 +1,6 @@
 <?php
 require 'variables/variables.php';
-$page = 'Inicio';
+$pagina = 'Inicio';
 $inmobiliaria = 'Andina Inmobiliaria';
 ?>
 <!DOCTYPE html>
@@ -9,9 +9,14 @@ $inmobiliaria = 'Andina Inmobiliaria';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $page . ' | ' . $inmobiliaria; ?></title>
+    <title><?php echo $pagina . ' | ' . $inmobiliaria; ?></title>
     <?php include 'layout/archivosheader.php'; ?>
+    <?php require 'controllers/indexController.php'; ?>
+    <script>
+        var pagina = 'inicio';
+    </script>
     <link rel="stylesheet" href="css/rangos.css">
+
 </head>
 
 <body>
@@ -109,21 +114,21 @@ $inmobiliaria = 'Andina Inmobiliaria';
                 <div class="col-2 p-1">
                     <div class="form-group">
                         <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Tipo de Inmueble </option>
+                            <option selected="" value="0">Tipo de Inmueble</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-2 p-1">
                     <div class="form-group">
                         <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Tipo de Gestión </option>
+                            <option selected="" value="0">Tipo de Gestión</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-2 p-1">
                     <div class="form-group">
                         <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Ciudad </option>
+                            <option selected="" value="0">Ciudad</option>
                         </select>
                     </div>
                 </div>
@@ -149,44 +154,32 @@ $inmobiliaria = 'Andina Inmobiliaria';
             <div class="row">
                 <div class="col-3 p-1">
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Código </option>
-                        </select>
+                        <input placeholder="Código" type="number" class="form-control f1" id="codigo_buscar" aria-describedby="emailHelp">
                     </div>
                 </div>
                 <div class="col-3 p-1">
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Baños </option>
-                        </select>
+                        <input placeholder="Baños" type="number" class="form-control f1" id="banios_buscar" aria-describedby="emailHelp">
                     </div>
                 </div>
                 <div class="col-3 p-1">
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Alcobas </option>
-                        </select>
+                        <input placeholder="Alcobas" type="number" class="form-control f1" id="alcobas_buscar" aria-describedby="emailHelp">
                     </div>
                 </div>
                 <div class="col-3 p-1">
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Garajes </option>
-                        </select>
+                        <input placeholder="Garajes " type="number" class="form-control f1" id="garajes_buscar" aria-describedby="emailHelp">
                     </div>
                 </div>
                 <div class="col-3 p-1">
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Área Mínima </option>
-                        </select>
+                        <input type="number" class="form-control" id="area_minima_buscar" placeholder="Área Mínima">
                     </div>
                 </div>
                 <div class="col-3 p-1">
                     <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option selected default> Área Máxima</option>
-                        </select>
+                        <input type="number" class="form-control" id="area_maxima_buscar" placeholder="Área Máxima">
                     </div>
                 </div>
                 <div class="col-6 p-1">
@@ -206,40 +199,99 @@ $inmobiliaria = 'Andina Inmobiliaria';
         </div>
     </section>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- propiedades destacadas -->
+    <section class="propiedades mt-4 pt-0" id="destacadas">
+        <div class="container">
+            <div class="row justify-content-center">
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+                <div class="col-md-11 col-lg-11 col-10">
+                    <h2 class="mb-3 ml-0">Propiedades Destacadas</h2>
+                    <div style="position:relative;">
+                        <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
+                            <?php if (is_array($api)) {
+                                inmuebles_destacados($api);
+                            } else {
+                                echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+                            }
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="col-12">
+            <div class="row align-items-center justify-content-center">
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+                <div class="mb-5 col-12 col-lg-4 col-xl-4">
+                    <div class="position-relative card" style="width: 22rem;">
+                        <div class="contenedor_imagen position-relative">
+                            <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
+                            <div class="position-absolute w-100 h-100 caja_negra"></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-baseline">
+                                <i class="mr-1 fas fa-map-marker-alt"></i>
+                                <h5> Barrio - Ciudad</h5>
+                            </div>
+                            <div class="d-flex align-items-baseline">
+                                <label> Código: 1234</label>
+                            </div>
+                            <div class="">
+                                <ul class=" list_iconos_cards d-flex p-0 justify-content-around">
+                                    <li> <i class="fas fa-chart-area mr-2"></i>5m<sup>2</sup></li>
+                                    <li> <i class=" fas fa-bath mr-2"></i>3</li>
+                                    <li> <i class="fas fa-bed mr-2"></i>5</li>
+                                    <li> <i class="fas fa-warehouse mr-2"></i>2</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 text-center">
+                                <a href="#" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="tipo_inmueble">
+                            <p class="ml-2">Apartamento</p>
+                        </div>
+                        <div class="tipo_gestion">
+                            <p class="mr-2">En Arriendo</p>
+                        </div>
+                        <div class="precio">
+                            <span class="ml-2">$ 1.000.000</span>
+                        </div>
+                    </div>
+                </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+                <div class="mb-5 col-12 col-lg-4 col-xl-4">
+                    <div class="position-relative card" style="width: 22rem;">
+                        <div class="contenedor_imagen position-relative">
+                            <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
+                            <div class="position-absolute w-100 h-100 caja_negra"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="tipo_inmueble">
+                            <p class="ml-2">Apartamento</p>
+                        </div>
+                        <div class="tipo_gestion">
+                            <p class="mr-2">En Arriendo</p>
+                        </div>
+                        <div class="precio">
+                            <p class="mr-2">$ 1.000.000</p>
+                        </div>
+                    </div>
+                </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+            </div>
+
+
+
+
+    </section> -->
+
 </body>
 <?php include 'layout/archivosfooter.php'; ?>
 <!-- barra de rangos -->
