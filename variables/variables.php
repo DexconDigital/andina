@@ -95,7 +95,7 @@ $imagenes_slide_principal = [
 $texto_quienes_somos = [
 	"quienes_somos" => [
 		"titulo" => "Quiénes Somos",//en negrita
-		"parrafo" => "ANDINA INMOBILIARIA S.A.S. inicia con el propósito de ofrecer excelentes soluciones y servicios para el mercado inmobiliario, donde nuestro objetivo  primordial es brindar acompañamiento con responsabilidad y realizar una gestión de alta calidad con nuestros clientes en la promoción y venta de propiedad raíz,  arrendamiento de inmuebles y avalúos de toda clase de propiedades.",
+		"parrafo" => "<strong>ANDINA INMOBILIARIA S.A.S.</strong> inicia con el propósito de ofrecer excelentes soluciones y servicios para el mercado inmobiliario, donde nuestro objetivo  primordial es brindar acompañamiento con responsabilidad y realizar una gestión de alta calidad con nuestros clientes en la promoción y venta de propiedad raíz,  arrendamiento de inmuebles y avalúos de toda clase de propiedades.",
 		],	
 	
 	"mision" => [

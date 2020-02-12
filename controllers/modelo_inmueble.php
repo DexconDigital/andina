@@ -10,7 +10,8 @@ function modelo_inmueble($r, $cantidad_inmuebles)
         $api = $r[$i];
 
         echo '
-        <div class="position-relative card" style="width: 20rem;">
+     
+        <div class="position-relative card" style="width: 24rem;">
                         <div class="contenedor_imagen position-relative">
                             <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
                             <div class="position-absolute w-100 h-100 caja_negra"></div>
@@ -45,6 +46,8 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                             <span class="ml-2">$ 1.000.000</span>
                         </div>
                     </div>
+                    
+    
         ';
     }
 }

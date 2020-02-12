@@ -32,8 +32,8 @@
         font-size: 43px;
         color: $azul;
         position: relative;
-        right: 22px;
-        top: -65%;
+        right: 27px;
+        top: -24px;
         
     }
 }
@@ -41,7 +41,7 @@
     color: $azul;
     border: 1px solid $azul;
     background-color: white;
-    left: 96%;
+    left: 95%;
     top: -9%;
     padding-left: 3%;
     height: 6%;
@@ -53,7 +53,7 @@
         color: $azul;
         position: relative;
         right: 22px;
-        top: -65%;
+        top: -24px;
         
     }
 }
@@ -70,4 +70,7 @@ span.img-text {
     font-size: 23px;
     display: block;
     text-transform: capitalize;
+}
+.owl-carousel.owl-drag .owl-item{
+    // margin-right: 58px !important;
 }

@@ -8393,6 +8393,57 @@ p, b {
   position: absolute;
   top: 31%; }
 
+.tamaño_cont {
+  max-width: 1293px !important; }
+
+#footer {
+  background-color: #0000A0; }
+  #footer p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white; }
+  #footer .icon {
+    color: #8D898B; }
+  #footer #link {
+    text-decoration: none;
+    color: white; }
+    #footer #link:hover {
+      color: #8D898B; }
+  #footer .footer-bottom-area {
+    background-color: #0000A0; }
+  #footer .color_a_foot_imper {
+    text-decoration: none;
+    color: #8D898B; }
+    #footer .color_a_foot_imper:hover {
+      color: white; }
+
+.subir {
+  display: none;
+  padding: 13px;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #8D898B;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  border-radius: 8px; }
+  .subir:hover {
+    background-color: #0000A0; }
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5); }
+
 .owl-carousel .owl-nav {
   overflow: hidden;
   height: 0px; }
@@ -8423,14 +8474,14 @@ p, b {
     font-size: 43px;
     color: #0000A0;
     position: relative;
-    right: 22px;
-    top: -65%; }
+    right: 27px;
+    top: -24px; }
 
 .owl-carousel .next-slide {
   color: #0000A0;
   border: 1px solid #0000A0;
   background-color: white;
-  left: 96%;
+  left: 95%;
   top: -9%;
   padding-left: 3%;
   height: 6%;
@@ -8441,7 +8492,7 @@ p, b {
     color: #0000A0;
     position: relative;
     right: 22px;
-    top: -65%; }
+    top: -24px; }
 
 span.img-text {
   text-decoration: none;
@@ -8455,3 +8506,80 @@ span.img-text {
   font-size: 23px;
   display: block;
   text-transform: capitalize; }
+
+#banner img {
+  width: 100%;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5); }
+
+#banner .rutas {
+  color: white; }
+
+#banner .cont_texto_banner {
+  margin-top: 6%;
+  z-index: 100; }
+
+#banner .txt_principal {
+  font-size: 43px;
+  line-height: 43px;
+  font-weight: 800; }
+
+#banner .titulo_principal {
+  font-weight: 800; }
+
+#estadisticas .icono {
+  color: #0000A0; }
+
+#acordion .lista {
+  text-align: left;
+  color: #8D898B; }
+
+#acordion li {
+  color: black; }
+
+#acordion .btn-link {
+  color: #0000A0;
+  text-decoration: none; }
+  #acordion .btn-link:hover {
+    color: #8D898B; }
+
+#acordion #img_arrendamiento {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain; }
+
+#acordion h5 {
+  color: #0000A0; }
+
+#acordion .div_avaluos {
+  padding: 45px; }
+
+.cards_inmueble {
+  margin-left: 5%; }
+
+.color_option_clientes {
+  color: black !important; }
+  .color_option_clientes:hover {
+    color: white !important; }
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #0000A0; }
+
+.btn_enviar {
+  width: 100%;
+  color: #ffffff;
+  background-color: #8D898B;
+  border: 1px solid #8D898B;
+  font-size: 14px;
+  padding: 10px; }
+  .btn_enviar:hover {
+    background-color: #0000A0;
+    color: white; }
+
+.politica {
+  color: #0000A0;
+  text-decoration: none; }
+  .politica:hover {
+    color: #8D898B;
+    text-decoration: none; }

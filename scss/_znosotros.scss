@@ -1,0 +1,26 @@
+#banner{
+    img{
+        width: 100%;
+        filter: brightness(0.5);
+    }
+    .rutas{
+        color: white;
+    }
+    .cont_texto_banner{
+        margin-top: 6%;
+        z-index: 100;
+    }
+    .txt_principal{
+        font-size: 43px;
+        line-height: 43px;
+        font-weight: 800;
+    }
+    .titulo_principal{
+        font-weight: 800;
+    }
+}
+#estadisticas{
+    .icono{
+        color: $azul;
+    }
+}

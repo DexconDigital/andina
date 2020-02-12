@@ -1,0 +1,12 @@
+.cards_inmueble{
+    margin-left: 5%;
+}
+.color_option_clientes{
+    color: black !important;
+    &:hover{
+        color: white !important;
+    }
+}
+.dropdown-item:hover, .dropdown-item:focus{
+    background-color: $azul;
+}

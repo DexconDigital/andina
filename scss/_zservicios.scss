@@ -1,0 +1,27 @@
+#acordion{
+    .lista{
+        text-align: left;
+        color: $gris;
+    }
+    li{
+        color: black;
+    }
+    .btn-link{
+    color: $azul;
+    text-decoration: none;
+    &:hover{
+        color: $gris;
+    }
+    }
+   #img_arrendamiento{
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+   }
+   h5{
+       color: $azul;
+   }
+   .div_avaluos{
+    padding: 45px;
+   }
+}
