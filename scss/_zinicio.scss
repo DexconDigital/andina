@@ -278,8 +278,8 @@ color: $azul;
 #footer{
    background-color: $azul;
    p{
-    font-weight: 700;
-    font-size: 18px;
+   //  font-weight: 700;
+   //  font-size: 18px;
     line-height: 24px;
     color: white;
    }
@@ -320,6 +320,7 @@ color: $azul;
    border-radius: 8px;
    &:hover{
       background-color: $azul;
+      border: 1px solid $blanco;
    }
 }
 
@@ -330,4 +331,19 @@ color: $azul;
 	top:0;
 	width:100%;
 	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.nav-item.active .nav-link {
+   position: relative;
+}
+.nav-item.active .nav-link:before {
+   content: "";
+   background: #fff;
+   position: absolute;
+   width:80%;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
 }

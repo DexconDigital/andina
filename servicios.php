@@ -37,7 +37,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                 <div class="col-12 text-center">
                     <h2 class="mb-3 ml-0 titulo_principal font-weight-bold">Arrendamientos</h2>
                     <div class="row">
-                        <div class="col-6 border d-flex">
+                        <div class="col-6  d-flex">
                             <div class="col-12">
                                 <div class="accordion" id="accordionExample">
                                     <div class="card">
@@ -84,8 +84,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 border">
-                            <img id="img_arrendamiento" src="images/no_image.png" alt="">
+                        <div class="col-6 ">
+                            <img id="img_arrendamiento" src="images/arriendo.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                         <h2 class="mb-3 ml-0 titulo_principal font-weight-bold"> Ventas</h2>
                         <div class="row">
                             <div class="col-6 border d-flex">
-                                <img id="img_arrendamiento" src="images/no_image.png" alt="">
+                                <img id="img_arrendamiento" src="images/venta.jpg" alt="">
                             </div>
                             <div class="col-6 border">
                                 <h5 class="mt-3 font-weight-bold">Nuestro equipo de trabajo le brindara el acompañamiento y la asesoría necesaria para la venta de su propiedad.</h5>

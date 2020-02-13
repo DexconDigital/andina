@@ -1,3 +1,51 @@
+ <!-- Codigo del preloader -->
+ <style>
+     #wrap-preload {
+         position: fixed;
+         z-index: 10;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         background: #fff;
+         opacity: 1;
+         visibility: visible;
+         transition: opacity .5s ease, visibility .5s ease;
+         z-index: 1032;
+     }
+
+     #wrap-preload.close {
+         opacity: 0;
+         visibility: hidden;
+     }
+
+     .fixed-top {
+         position: fixed;
+         top: 0;
+         right: 0;
+         left: 0;
+         z-index: 10;
+     }
+
+     #wrap-preload>img.gif {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate3d(-50%, -50%, 0);
+         z-index: 1032;
+         height: 20%;
+     }
+ </style>
+ <div id="wrap-preload">
+     <img src="images/preloader.gif" alt="gif" class="gif" id="gif">
+ </div>
+ <script>
+     var loader = document.getElementById("wrap-preload");
+     window.addEventListener("load", function() {
+         loader.style.visibility = "hidden";
+     });
+ </script>
+ <!-- Fin de codigo preloader -->
  <!-- primer_nav -->
  <div class="fondo_buscador">
      <div class="col-12 d-flex p-0">
@@ -34,16 +82,16 @@
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav">
-                 <li class="nav-item active linea mr-2">
-                     <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                 <li class="nav-item linea mr-2 position-relative <?php if ($pagina == 'Inicio') { echo 'active'; } ?>">
+                     <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                  </li>
-                 <li class="nav-item linea mr-2">
+                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Nosotros') { echo 'active'; } ?>">
                      <a class="nav-link" href="nosotros.php">Nosotros</a>
                  </li>
-                 <li class="nav-item linea mr-2">
+                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Servicios') { echo 'active'; } ?>">
                      <a class="nav-link" href="servicios.php">Servicios</a>
                  </li>
-                 <li class="nav-item linea mr-2">
+                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Inmuebles') { echo 'active'; } ?>">
                      <a class="nav-link" href="inmuebles.php?">Inmuebles</a>
                  </li>
                  <li class="nav-item dropdown">
@@ -57,9 +105,9 @@
                      </div>
                  </li>
                  <li class="nav-item linea mr-2">
-                     <a class="nav-link" href="#">Consignar Inmueble</a>
+                     <a class="nav-link" href="#" data-toggle="modal" data-target="#consigna">Consignar Inmueble</a>
                  </li>
-                 <li class="nav-item linea mr-2">
+                 <li class="nav-item linea mr-2 <?php if ($pagina == 'Contacto') { echo 'active'; } ?>">
                      <a class="nav-link" href="contacto.php">Contáctenos</a>
                  </li>
                  <li class="nav-item mr-2">
@@ -68,4 +116,4 @@
              </ul>
          </div>
      </nav>
- </div> 
+ </div>

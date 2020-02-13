@@ -24,13 +24,13 @@ $inmobiliaria = 'Andina Inmobiliaria';
         <div class="col-12 p-0">
             <div class="col-12 cont_texto_banner text-center position-absolute">
                 <h1 class="font-weight-bold rutas txt_principal"> CONTÁCTENOS </h1>
-                <h5 class="justify-content-center row rutas"> Inicio / Conatcto </h5>
+                <h5 class="justify-content-center row rutas"> Inicio / Contáctenos </h5>
             </div>
             <img src="images/banner_contacto.jpg" alt="">
         </div>
     </section>
 
-    <section class="propiedades mt-4 pt-0" id="aliados">
+    <section class="propiedades mt-4 pt-0" id="contacto">
         <div class="container tamaño_cont">
             <div class="justify-content-center">
                 <div class="col-md-11 col-lg-12 col-10">
@@ -38,7 +38,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     <div style="position:relative;">
                         <div class="col-12 text-justify">
                             <div class="row">
-                                <div class="col-6 border">
+                                <div class="col-6">
                                     <form>
                                         <div class="form-group font-weight-bold">
                                             <label for="exampleInputEmail1 ">Nombre Completo</label>
@@ -57,17 +57,49 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                                                <label class="form-check-label" for="gridCheck">
-                                                    Confimo que he leído, entendido y acepto la <a class="politica" href=""> política de tratamiento de datos personales.</a>
-                                                </label>
+                                            <div class="custom-control custom-checkbox mb-4">
+                                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
+                                                <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                             </div>
                                         </div>
                                         <div class="text-center">
                                             <button type="submit" class="btn btn_enviar col-6">Enviar</button>
                                         </div>
                                     </form>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-4">
+                                        <div class="col-12 mb-5 container">
+                                            <i class="fas fa-map-marker-alt icon"></i> <a id="link"> Andina Inmobiliaria S.A.S, M.A.V.U No 0006/11SGM.</a>
+                                        </div>
+                                        <div class="col-12 mb-5 container ">
+                                            <i class="fas fa-location-arrow icon"></i> <a id="link" href="https://www.google.com/maps/place/204+Oficina,+Cra.+83+%2332-64,+Medell%C3%ADn,+Antioquia/@6.2342548,-75.6083956,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429917f42915b:0x436ecd39c4f046b!8m2!3d6.2342495!4d-75.6062069" target="_blank"> Carrera 81 No 32 – 204 Oficina 322ª Nueva Villa del Aburra Medellín - Antioquia</a>
+                                        </div>
+                                        <div class="col-12 mb-5 container">
+                                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 (4) 444 52 32</a>
+                                        </div>
+                                        <div class="col-12 mb-5 container">
+                                            <i class="fab fa-whatsapp icon"></i><a id="link" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"> 300 543 07 22</a>
+                                        </div>
+                                        <div class="col-12 container">
+                                            <i class="fas fa-envelope icon"></i><a id="link" href="mailto:<?php echo $datos_contacto['correo']['correo'] ?>"> info@andinainmobiliaria.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+
+                                        <ul class="lista_redes justify-content-center p-0 espacio_top">
+                                            <li class="mr-4 estilo_icono_foot2">
+                                                <a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank" class="color_iconos color_facebook tamaños"> <i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="mr-4 estilo_icono_foot2">
+                                                <a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="_blank" class="color_iconos color_insta tamaños"><i class=" fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="estilo_icono_foot2">
+                                                <a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank" class="color_iconos color_wapp tamaños"> <i class="color_wapp fab fa-whatsapp"></i></a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +108,14 @@ $inmobiliaria = 'Andina Inmobiliaria';
             </div>
         </div>
     </section>
+    <section id="mapa">
+        <div class="col-12 p-0 mt-3 mapa_ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2234443391076!2d-75.60839558523082!3d6.234249495487249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429917f42915b%3A0x436ecd39c4f046b!2s204%20Oficina%2C%20Cra.%2083%20%2332-64%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1581597309156!5m2!1ses-419!2sco" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="contenedor-overlay">
 
+            </div>
+        </div>
+    </section>
 
 
     <!-- footer -->

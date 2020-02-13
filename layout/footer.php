@@ -4,7 +4,7 @@
 <div class="container tamaño_cont">
     <div class="justify-content-center">
         <div class="col-md-11 col-lg-12 col-10">
-            <div class="col-12 p-4">
+            <div class="col-12 p-5">
                 <div class="row">
                     <!-- datos contacto -->
                     <div class="col-4">
@@ -22,7 +22,7 @@
                             <i class="fab fa-whatsapp icon"></i><a id="link" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"> 300 543 07 22</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
-                            <i class="far fa-envelope icon"></i><a id="link" href="mailto:<?php echo $datos_contacto['correo']['correo'] ?>"> info@andinainmobiliaria.com</a>
+                            <i class="fas fa-envelope icon"></i><a id="link" href="mailto:<?php echo $datos_contacto['correo']['correo'] ?>"> info@andinainmobiliaria.com</a>
 
                         </div>
                     </div>
@@ -65,3 +65,83 @@
             Todos los derechos reservados. <a href="" class="color_a_foot_imper">Politica de Datos</a> </p>
     </div>
 </div>
+<!-- modal consignar -->
+<section>
+    <div class="modal fade show" id="consigna" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Consignar Inmueble</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <form action="email/consignainmueble.php" class="row" method="post">
+                            <div class="form-group col-12">
+                                <input type="text" placeholder="Nombre" name="nombre" class="form-control" requiered="">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="mail" placeholder="Correo" name="email" class="form-control" required="">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="Telefono" placeholder="Teléfono" name="telefono" class="form-control" requiered="">
+                            </div>
+                            <div class="form-group col-12">
+                                <select class="form-control select_color" name="transaccion" requiered="">
+                                    <option selected="" disabled="">Tipo de Transacción</option>
+                                    <option value="arriendo">Arriendo</option>
+                                    <option value="arriendo/venta">Arriendo/venta</option>
+                                    <option value="venta">Venta</option>
+                                    <option value="avaluos">Avalúos</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-12">
+                                <select class="form-control select_color" id="tipo_inm" name="tipo_inm" requiered="">
+                                    <option selected="" disabled="">Tipo de Inmueble</option>
+                                    <option value="Apartamento">Apartamento</option>
+                                    <option value="Casa">Casa</option>
+                                    <option value="Consultorio">Consultorio</option>
+                                    <option value="Oficina">Oficina</option>
+                                    <option value="Local">Local</option>
+                                    <option value="Bodega">Bodega</option>
+                                    <option value="Lote">Lote</option>
+                                    <option value="Finca">Finca</option>
+                                    <option value="Parqueadero">Parqueadero</option>
+                                    <option value="Edificio">Edificio</option>
+                                    <option value="Apartaestudio">Apartaestudio</option>
+                                    <option value="Hotel">Hotel</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="number" placeholder="Valor" name="valor" class="form-control" requiered="">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="number" placeholder="Área" name="area" class="form-control" requiered="">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="text" placeholder="Ciudad" name="ciudad" class="form-control" requiered="">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="text" placeholder="Dirección" name="direccion" class="form-control" requiered="">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="mensaje" placeholder="Mensajes" class="form-control" id="mensaje" rows="6" requiered=""></textarea>
+                            </div>
+                            <div class="form-group col-12">
+                                <div class="custom-control custom-checkbox mb-4">
+                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
+                                    <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <button type="submit" class="btn btn_buscar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

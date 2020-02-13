@@ -8399,8 +8399,6 @@ p, b {
 #footer {
   background-color: #0000A0; }
   #footer p {
-    font-weight: 700;
-    font-size: 18px;
     line-height: 24px;
     color: white; }
   #footer .icon {
@@ -8433,7 +8431,8 @@ p, b {
   z-index: 100;
   border-radius: 8px; }
   .subir:hover {
-    background-color: #0000A0; }
+    background-color: #0000A0;
+    border: 1px solid white; }
 
 /* --- Clase que agregaremos cuando el usuario haga scroll --- */
 .menu-fixed {
@@ -8443,6 +8442,20 @@ p, b {
   width: 100%;
   -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5); }
+
+.nav-item.active .nav-link {
+  position: relative; }
+
+.nav-item.active .nav-link:before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 .owl-carousel .owl-nav {
   overflow: hidden;
@@ -8527,8 +8540,21 @@ span.img-text {
 #banner .titulo_principal {
   font-weight: 800; }
 
-#estadisticas .icono {
-  color: #0000A0; }
+#estadisticas {
+  background-image: url("../images/contador.jpg");
+  padding: 4%;
+  margin-bottom: -2%;
+  color: white; }
+  #estadisticas .icono {
+    color: #0000A0; }
+
+.espacio_int_valores {
+  margin-top: 7%; }
+
+.color_fondo {
+  background-color: #8d898b54;
+  color: black;
+  border: 0.1px solid white !important; }
 
 #acordion .lista {
   text-align: left;
@@ -8553,7 +8579,10 @@ span.img-text {
   color: #0000A0; }
 
 #acordion .div_avaluos {
-  padding: 45px; }
+  padding: 45px;
+  background-image: url("../images/avaluos.jpg");
+  color: white;
+  margin-bottom: -26px; }
 
 .cards_inmueble {
   margin-left: 5%; }
@@ -8583,3 +8612,32 @@ span.img-text {
   .politica:hover {
     color: #8D898B;
     text-decoration: none; }
+
+#contacto #link {
+  text-decoration: none;
+  color: black; }
+  #contacto #link:hover {
+    color: #0000A0; }
+
+#contacto .estilo_icono_foot2 {
+  display: block;
+  -webkit-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  background: transparent;
+  border-radius: 30%;
+  -moz-border-radius: 30%;
+  -webkit-border-radius: 30%; }
+
+#contacto .tamaños {
+  font-size: 35px; }
+
+#mapa .mapa_ubicacion {
+  margin-bottom: -3%; }
+
+#mapa iframe {
+  width: 100%; }

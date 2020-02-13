@@ -20,7 +20,19 @@
     }
 }
 #estadisticas{
+    background-image: url('../images/contador.jpg');
+    padding: 4%;
+    margin-bottom: -2%;
+    color: white;
     .icono{
         color: $azul;
     }
+}
+.espacio_int_valores{
+    margin-top: 7%;
+}
+.color_fondo{
+    background-color: #8d898b54;
+    color: black;
+    border: 0.1px solid $blanco !important
 }

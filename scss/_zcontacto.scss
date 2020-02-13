@@ -18,3 +18,40 @@
         text-decoration: none;
     }
 }
+#contacto{
+    #link{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            color: $azul;
+        }
+
+    }
+    .estilo_icono_foot2{
+        display: block;
+    -webkit-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    background: transparent;
+    border-radius: 30%;
+    -moz-border-radius: 30%;
+    -webkit-border-radius: 30%;
+    }
+    .tamaños{
+        font-size: 35px;
+    }
+}
+#mapa{
+    .mapa_ubicacion{
+        margin-bottom: -3%;
+
+    }
+    iframe{
+        width: 100%;
+    }
+}
