@@ -43,7 +43,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                         <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-12 d-flex p-0">
+                                <div class="col-12 d-flex p-0 mt-3">
                                     <div class="col-6">
                                         <h5 class="ml-0 titulo_principal font-weight-bold">Misión</h5>
                                         <p><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
@@ -53,7 +53,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                         <p><?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-12 mt-3 p-0">
+                                <div class="col-12 mt-3 p-0 mt-5">
                                     <h5 class="text-center titulo_principal font-weight-bold">Valores Corporativos</h5>
 
                                     <div class="col-12 d-flex justify-content-center">
