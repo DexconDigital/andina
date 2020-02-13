@@ -94,10 +94,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     <div class="col-12 text-center mt-4">
                         <h2 class="mb-3 ml-0 titulo_principal font-weight-bold"> Ventas</h2>
                         <div class="row">
-                            <div class="col-6 border d-flex">
+                            <div class="col-6 d-flex">
                                 <img id="img_arrendamiento" src="images/venta.jpg" alt="">
                             </div>
-                            <div class="col-6 border">
+                            <div class="col-6">
                                 <h5 class="mt-3 font-weight-bold">Nuestro equipo de trabajo le brindara el acompañamiento y la asesoría necesaria para la venta de su propiedad.</h5>
                                 <ul class="lista">
                                     <li>Promocionamos su inmueble en los diferentes portales inmobiliarios.</li>
