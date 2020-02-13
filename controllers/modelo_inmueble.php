@@ -12,10 +12,12 @@ function modelo_inmueble($r, $cantidad_inmuebles)
         echo '
      
         <div class="position-relative card" style="width: 24rem;">
-                        <div class="contenedor_imagen position-relative">
-                            <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
-                            <div class="position-absolute w-100 h-100 caja_negra"></div>
-                        </div>
+                   <a href="detalle_inmueble.php">
+                    <div class="contenedor_imagen position-relative">
+                       <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
+                   <div class="position-absolute w-100 h-100 caja_negra"></div>
+                      </div>
+                     </a>
                         <div class="card-body">
                             <div class="d-flex align-items-baseline">
                                 <i class="mr-1 fas fa-map-marker-alt"></i>
@@ -33,7 +35,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                                 </ul>
                             </div>
                             <div class="col-12 text-center">
-                                <a href="#" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
+                                <a href="detalle_inmueble.php" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
                             </div>
                         </div>
                         <div class="tipo_inmueble">

@@ -61,7 +61,7 @@
 <!-- segund div -->
 <div class="footer-bottom-area">
     <div class="container  text-center p-2">
-        <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com">Dexcon Digital.</a>©Copyright 2020 para Andina Inmobiliaria.
+        <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com" target="_blanck">Dexcon Digital.</a>©Copyright 2020 para Andina Inmobiliaria.
             Todos los derechos reservados. <a href="" class="color_a_foot_imper">Politica de Datos</a> </p>
     </div>
 </div>
@@ -132,7 +132,7 @@
                             <div class="form-group col-12">
                                 <div class="custom-control custom-checkbox mb-4">
                                     <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                    <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                    <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="" target="_blanck"> política de tratamiento de datos personales.</a></label>
                                 </div>
                             </div>
                             <div class="form-group col-12">

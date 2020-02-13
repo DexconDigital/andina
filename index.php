@@ -61,7 +61,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
         <div class="container tamaño_cont">
             <div class="justify-content-center">
                 <div class="col-md-11 col-lg-12 col-10">
-                    <h2 class="mb-4 ml-0 font-weight-bold">Propiedades Destacadas</h2>
+                    <h2 class="mb-4 ml-0 font-weight-bold titulo_importante">Propiedades Destacadas</h2>
                     <div style="position:relative;">
                         <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
                             <?php if (is_array($api)) {
@@ -154,7 +154,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
         <div class="container tamaño_cont">
             <div class="justify-content-center">
                 <div class="col-md-11 col-lg-12 col-10">
-                    <h2 class="mb-3 ml-0 font-weight-bold">Nuestros Aliados</h2>
+                    <h2 class="mb-3 ml-0 font-weight-bold titulo_importante">Nuestros Aliados</h2>
                     <div style="position:relative;">
                         <div class="col-12 mt-5">
                             <div class="owl-carousel owl-theme" id="aliados_slide">

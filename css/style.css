@@ -8167,6 +8167,9 @@ body {
 h1, h2, h3, h4, h5, h6, span {
   font-family: "roboto"; }
 
+.titulo_importante {
+  color: black !important; }
+
 p, b {
   font-family: "releway"; }
 
@@ -8556,6 +8559,9 @@ span.img-text {
   color: black;
   border: 0.1px solid white !important; }
 
+#aliados .titulo_principal {
+  padding-left: 9px !important; }
+
 #acordion .lista {
   text-align: left;
   color: #8D898B; }
@@ -8594,6 +8600,32 @@ span.img-text {
 
 .dropdown-item:hover, .dropdown-item:focus {
   background-color: #0000A0; }
+
+.codigo {
+  font-size: 15px;
+  line-height: 16px;
+  margin-top: -10px !important;
+  font-weight: 400;
+  color: #8D898B; }
+  .codigo .icon {
+    color: black; }
+
+.codigo1 {
+  top: 15px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin-left: 2%;
+  margin-top: 2%; }
+
+.label-status {
+  background-color: #0000A0;
+  color: white;
+  padding: 6px 10px 6px;
+  border-radius: 4px; }
+
+.color_twitter {
+  color: #00BBF2; }
 
 .btn_enviar {
   width: 100%;

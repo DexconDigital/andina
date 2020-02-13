@@ -91,7 +91,7 @@
                  <li class="nav-item linea mr-2  <?php if ($pagina == 'Servicios') { echo 'active'; } ?>">
                      <a class="nav-link" href="servicios.php">Servicios</a>
                  </li>
-                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Inmuebles') { echo 'active'; } ?>">
+                 <li class="nav-item linea mr-2  <?php if ($pagina =='Inmuebles' || $pagina =='Detalle de Inmueble') { echo 'active'; } ?>">
                      <a class="nav-link" href="inmuebles.php?">Inmuebles</a>
                  </li>
                  <li class="nav-item dropdown">
@@ -99,8 +99,8 @@
                          Clientes
                      </a>
                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                         <a class="dropdown-item color_option_clientes" href="#">Arrendatarios</a>
-                         <a class="dropdown-item color_option_clientes" href="#">Propietarios</a>
+                         <a class="dropdown-item color_option_clientes" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=984&tipo=2" target="_blanck">Arrendatarios</a>
+                         <a class="dropdown-item color_option_clientes" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=984&tipo=1" target="_blank">Propietarios</a>
                          <a class="dropdown-item color_option_clientes" href="#">Pagos PSE</a>
                      </div>
                  </li>

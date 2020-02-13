@@ -35,7 +35,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
             <div class="container">
                 <!-- arrendamientos -->
                 <div class="col-12 text-center">
-                    <h2 class="mb-3 ml-0 titulo_principal font-weight-bold">Arrendamientos</h2>
+                    <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante">Arrendamientos</h2>
                     <div class="row">
                         <div class="col-6  d-flex">
                             <div class="col-12">
@@ -92,7 +92,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                 <!-- ventas -->
                
                     <div class="col-12 text-center mt-4">
-                        <h2 class="mb-3 ml-0 titulo_principal font-weight-bold"> Ventas</h2>
+                        <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante"> Ventas</h2>
                         <div class="row">
                             <div class="col-6 d-flex">
                                 <img id="img_arrendamiento" src="images/venta.jpg" alt="">

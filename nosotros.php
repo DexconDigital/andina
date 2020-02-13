@@ -23,7 +23,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section id="banner">
         <div class="col-12 p-0">
             <div class="col-12 cont_texto_banner text-center position-absolute">
-                <h1 class="font-weight-bold rutas txt_principal"> NOSOTROS </h1>
+                <h1 class="font-weight-bold rutas txt_principal titulo_importante"> NOSOTROS </h1>
                 <h5 class="justify-content-center row rutas"> Inicio / Nosotros </h5>
             </div>
             <img src="images/banner_quienes_somos.jpg" alt="">
@@ -34,7 +34,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
         <div class="container tamaño_cont">
             <div class="justify-content-center">
                 <div class="col-md-11 col-lg-12 col-10">
-                    <h2 class="mb-3 ml-0 titulo_principal font-weight-bold">Quiénes Somos</h2>
+                    <h2 class="mb-3  titulo_principal font-weight-bold titulo_importante">Quiénes Somos</h2>
                     <div style="position:relative;">
                         <div class="col-12 text-justify">
                             <div class="row">

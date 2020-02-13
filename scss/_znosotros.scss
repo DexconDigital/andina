@@ -17,6 +17,7 @@
     }
     .titulo_principal{
         font-weight: 800;
+        
     }
 }
 #estadisticas{
@@ -35,4 +36,9 @@
     background-color: #8d898b54;
     color: black;
     border: 0.1px solid $blanco !important
+}
+#aliados{
+    .titulo_principal{
+        padding-left: 9px !important;
+    }
 }

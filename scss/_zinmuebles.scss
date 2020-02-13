@@ -10,3 +10,33 @@
 .dropdown-item:hover, .dropdown-item:focus{
     background-color: $azul;
 }
+.codigo{
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: -10px !important;
+    font-weight: 400;
+    color: $gris;
+    
+
+    .icon{
+        color: black;
+    }
+
+}
+.codigo1{
+    top: 15px;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.label-status{
+    background-color: $azul;
+    color: white;
+    padding: 6px 10px 6px;
+    border-radius: 4px;
+}
+.color_twitter{
+    color: #00BBF2;
+}
