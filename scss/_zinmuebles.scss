@@ -40,3 +40,92 @@
 .color_twitter{
     color: #00BBF2;
 }
+#color_fondo{
+    background-color: #f5f5f5;
+}
+.asesor_cont_mayor{
+    padding: 0px 23px;
+}
+.color_int_asesor{
+    background-color: white;
+}
+.tamaño_img_asesor{
+    width: 100%;
+    object-fit: contain;
+}
+.datos_asesor{
+    list-style: none;
+}
+.icono_Asesor{
+    color: $azul;
+}
+.accion_asesor{
+    color: black;
+    &:hover{
+        color: $gris;
+        text-decoration: none;
+    }
+}
+.btn_Asesor{
+    border: 1px solid $gris;
+    background-color: $blanco;
+    color: $gris;
+    &:hover{
+        background-color: $gris;
+        color: white;
+    }
+}
+#cont_tab{
+    
+    .tab_conte .nav-tabs li.active{
+        background-color: #fff;
+        
+    }
+    .tab_conte .nav-link.active{
+      background-color: $blanco;
+      color: black;
+    }
+    .tab_conte .nav-link{
+        background-color: $gris;
+        color: white;
+      }
+      .tab_conte .tab-pane{
+        padding: 3%;
+        text-align: justify;
+    
+      }
+    .tab_conte .nav-tabs li{
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    height: 50px;
+    // padding: 5px;
+    transition: .3s;
+    cursor: pointer;
+    border-right: 1px solid #f5f5f5;
+    }
+    .tab_conte{
+        background-color: #fff;
+        margin-top: -14%;
+    }
+
+    
+    .primer_texto{
+        padding: 18px;
+        color: black;
+        &:hover{
+            background-color: $azul;
+            color: white;
+        }
+    }
+}
+.alto_img_similares{
+    height: 125px;
+}
+
+.mapa{
+    margin-bottom: -2%;
+}
