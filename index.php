@@ -11,7 +11,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pagina . ' | ' . $inmobiliaria; ?></title>
     <?php include 'layout/archivosheader.php'; ?>
-    <?php require 'controllers/indexController.php'; ?>
+    <!-- <?php require 'controllers/indexController.php'; ?> -->
     <script>
         var pagina = 'inicio';
     </script>
