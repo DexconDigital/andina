@@ -90,36 +90,37 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     </div>
                 </div>
                 <!-- ventas -->
-               
-                    <div class="col-12 text-center mt-4">
-                        <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante"> Ventas</h2>
-                        <div class="row">
-                            <div class="col-6 d-flex">
-                                <img id="img_arrendamiento" src="images/venta.jpg" alt="">
-                            </div>
-                            <div class="col-6">
-                                <h5 class="mt-3 font-weight-bold">Nuestro equipo de trabajo le brindara el acompañamiento y la asesoría necesaria para la venta de su propiedad.</h5>
-                                <ul class="lista">
-                                    <li>Promocionamos su inmueble en los diferentes portales inmobiliarios.</li>
-                                    <li>Acompañamos y asesoramos las partes durante el proceso de negociación.</li>
-                                    <li>Revisamos y analizamos los certificados de libertad, escrituras y demás documentos que sean necesarios al inicio del proceso de venta.</li>
-                                    <li>Realizamos el documento Promesa de Compraventa.</li>
-                                    <li>Hacemos seguimiento y gestión a los documentos necesarios para la firma de la escritura pública de compraventa.</li>
-                                    <li>Realizamos la gestión de los paz y salvos de impuesto predial, valorización y administración.</li>
-                                    <li>Finalizamos nuestra gestión con el seguimiento y entrega de escrituras, finalizando así el proceso de venta.</li>
-                                </ul>
-                            </div>
+
+                <div class="col-12 text-center mt-4">
+                    <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante"> Ventas</h2>
+                    <div class="row">
+                        <div class="col-6 d-flex">
+                            <img id="img_arrendamiento" src="images/venta.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h5 class="mt-3 font-weight-bold">Nuestro equipo de trabajo le brindara el acompañamiento y la asesoría necesaria para la venta de su propiedad.</h5>
+                            <ul class="lista">
+                                <li>Promocionamos su inmueble en los diferentes portales inmobiliarios.</li>
+                                <li>Acompañamos y asesoramos las partes durante el proceso de negociación.</li>
+                                <li>Revisamos y analizamos los certificados de libertad, escrituras y demás documentos que sean necesarios al inicio del proceso de venta.</li>
+                                <li>Realizamos el documento Promesa de Compraventa.</li>
+                                <li>Hacemos seguimiento y gestión a los documentos necesarios para la firma de la escritura pública de compraventa.</li>
+                                <li>Realizamos la gestión de los paz y salvos de impuesto predial, valorización y administración.</li>
+                                <li>Finalizamos nuestra gestión con el seguimiento y entrega de escrituras, finalizando así el proceso de venta.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!-- avaluos -->
-                <div class="col-12 text-center mt-4 border div_avaluos">
-                    <h2 class="mb-3 ml-0 titulo_principal font-weight-bold"> Avalúos</h2>
-                    <div class="text-center">
-                            <p>Ofrecemos a nuestros clientes el servicio de avalúos para todo tipo de propiedades, con el fin de determinar el valor correcto y real del mismo.</p>
-                    </div>
-                </div>
-            
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- avaluos -->
+        <div class="col-12 text-center mt-4 div_avaluos">
+            <h2 class="mb-3 ml-0 titulo_principal font-weight-bold"> Avalúos</h2>
+            <div class="text-center">
+                <p>Ofrecemos a nuestros clientes el servicio de avalúos para todo tipo de propiedades, con el fin de determinar el valor correcto y real del mismo.</p>
+            </div>
         </div>
     </section>
     <!-- footer -->

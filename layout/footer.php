@@ -61,8 +61,9 @@
         </div>
     </div>
 </div>
+<hr id="linea" width="90%">
 <!-- segund div -->
-<div class="footer-bottom-area mb-3">
+<div class="footer-bottom-area">
     <div class="container  text-center p-2">
         <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com" target="_blanck">Dexcon Digital.</a>©Copyright 2020 para Andina Inmobiliaria.
             Todos los derechos reservados. <a href="" class="color_a_foot_imper">Politica de Datos</a> </p>

@@ -8482,6 +8482,9 @@ p, b {
   to {
     margin-left: -630%; } }
 
+#linea {
+  background-color: white; }
+
 .owl-carousel .owl-nav {
   overflow: hidden;
   height: 0px; }
@@ -8609,7 +8612,7 @@ span.img-text {
 #acordion h5 {
   color: #0000A0; }
 
-#acordion .div_avaluos {
+.div_avaluos {
   padding: 45px;
   background-image: url("../images/avaluos.jpg");
   color: white;

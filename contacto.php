@@ -69,9 +69,6 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 </div>
                                 <div class="col-6">
                                     <div class="p-4">
-                                        <div class="col-12 mb-5 container">
-                                            <i class="fas fa-map-marker-alt icon"></i> <a id="link"> Andina Inmobiliaria S.A.S</a>
-                                        </div>
                                         <div class="col-12 mb-5 container ">
                                             <i class="fas fa-location-arrow icon"></i> <a id="link" href="https://www.google.com/maps/place/204+Oficina,+Cra.+83+%2332-64,+Medell%C3%ADn,+Antioquia/@6.2342548,-75.6083956,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429917f42915b:0x436ecd39c4f046b!8m2!3d6.2342495!4d-75.6062069" target="_blank"> Carrera 81 No 32 – 204 Oficina 322ª Nueva Villa del Aburra Medellín - Antioquia</a>
                                         </div>
@@ -113,7 +110,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
     </section>
     <section id="mapa">
         <div class="col-12 p-0 mt-3 mapa_ubicacion">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2105030424595!2d-75.60809988573422!3d6.235960628170441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429910606c449%3A0x932e81063fabe8b5!2sCra.%2083%20%2332b21%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1582291922558!5m2!1ses-419!2sco" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1367364399744!2d-75.60403398573416!3d6.245705328064305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ffd9a74193%3A0xbf986bb290d8ccc!2sFisiocinetics!5e0!3m2!1ses!2sco!4v1582306194112!5m2!1ses!2sco" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            
         </div>
     </section>
 
