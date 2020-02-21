@@ -8,12 +8,15 @@
                 <div class="row">
                     <!-- datos contacto -->
                     <div class="col-4">
-                        <p>Datos de contacto</p>
+                        <h5 class="font-weight-bold">Datos de contacto</h5>
                         <div class="col-12 mb-3 p-0">
                             <i class="fas fa-map-marker-alt icon"></i> <a id="link"> Andina Inmobiliaria S.A.S, M.A.V.U No 0006/11SGM.</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
                             <i class="fas fa-location-arrow icon"></i> <a id="link" href="https://www.google.com/maps/place/204+Oficina,+Cra.+83+%2332-64,+Medell%C3%ADn,+Antioquia/@6.2342548,-75.6083956,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429917f42915b:0x436ecd39c4f046b!8m2!3d6.2342495!4d-75.6062069" target="_blank"> Carrera 81 No 32 – 204 Oficina 322ª Nueva Villa del Aburra Medellín - Antioquia</a>
+                        </div>
+                        <div class="col-12 mb-3 p-0">
+                            <i class="fa fa-mobile-alt icon"></i><a id="link" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"> 300 543 07 22</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
                             <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 (4) 444 52 32</a>
@@ -28,7 +31,7 @@
                     </div>
                     <!-- horarios -->
                     <div class="col-4">
-                        <p>Horarios de atención</p>
+                        <h5 class="font-weight-bold">Horarios de atención</h5>
                         <div class="col-12 mb-3 p-0">
                             <i class="fas fa-calendar-alt icon"></i> <a id="link">Lunes a jueves de 7:30AM a 12:30PM y de 1:30PM a 5:30PM.</a>
                         </div>
@@ -41,7 +44,7 @@
                     </div>
                     <!-- formualrios -->
                     <div class="col-4">
-                        <p> Descarga de formularios Libertador</p>
+                        <h5 class="font-weight-bold"> Descarga de formularios Libertador</h5>
                         <div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Natural.pdf" target="_blank">Persona Natural</a>
                         </div>
@@ -59,14 +62,14 @@
     </div>
 </div>
 <!-- segund div -->
-<div class="footer-bottom-area">
+<div class="footer-bottom-area mb-3">
     <div class="container  text-center p-2">
         <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com" target="_blanck">Dexcon Digital.</a>©Copyright 2020 para Andina Inmobiliaria.
             Todos los derechos reservados. <a href="" class="color_a_foot_imper">Politica de Datos</a> </p>
     </div>
 </div>
 <!-- modal consignar -->
-<section>
+<section id="modal_consigana">
     <div class="modal fade show" id="consigna" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">

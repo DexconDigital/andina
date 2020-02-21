@@ -87,7 +87,7 @@ p, b {
    }
 }
 .espacio_top{
-   padding-top: 9% !important;
+   padding-top: 3% !important;
 }
 .color_llamanos{
    color: $blanco;
@@ -283,10 +283,14 @@ color: $azul;
 }
 #footer{
    background-color: $azul;
-   p{
+   h5{
    //  font-weight: 700;
    //  font-size: 18px;
     line-height: 24px;
+    color: white;
+   }
+   p{
+   line-height: 24px;
     color: white;
    }
    .icon {
@@ -352,4 +356,28 @@ color: $azul;
    left: 0;
    right: 0;
    margin: auto;
+}
+
+
+#aliados{
+   #contenedor_aliados{
+      .cont_img{
+         overflow: hidden;
+      }
+      .animacion_logo{
+         animation: animacion_logo 10s ease-in-out infinite alternate;
+
+         @keyframes animacion_logo {
+             from {
+                 margin-left: 0;
+             }
+
+             to {
+                 margin-left: -630%;
+             }
+         }
+
+     }
+      
+   }
 }

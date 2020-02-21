@@ -152,22 +152,22 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <!-- aliados -->
     <section class="propiedades mt-4 pt-0" id="aliados">
         <div class="container tamaño_cont">
-            <div class="justify-content-center">
+            <div class="justify-content-center" id="contenedor_aliados">
                 <div class="col-md-11 col-lg-12 col-10">
                     <h2 class="mb-3 ml-0 font-weight-bold titulo_importante">Nuestros Aliados</h2>
                     <div style="position:relative;">
-                        <div class="col-12 mt-5">
+                        <div class="col-12 mt-5 cont_img">
                             <div class="owl-carousel owl-theme" id="aliados_slide">
-                                <div class="item" style="height: 180px;">
+                                <div class="item animacion_logo" style="height: 180px;">
                                     <a href=" " target="_blank"><img style="height: 40%; object-fit: contain;" src="images/ccm.png" alt=""></a>
                                 </div>
-                                <div class="item" style="height: 180px;">
+                                <div class="item animacion_logo" style="height: 180px;">
                                     <a href="" target="_blank"><img style="height: 40%; object-fit: contain;" src="images/libertador.png" alt=""></a>
                                 </div>
-                                <div class="item" style="height: 180px;">
+                                <div class="item animacion_logo" style="height: 180px;">
                                     <a href="" target="_blank"><img style="height: 40%; object-fit: contain;" src="images/simi.png" alt=""></a>
                                 </div>
-                                <div class="item" style="height: 180px;">
+                                <div class="item animacion_logo" style="height: 180px;">
                                     <a href="" target="_blank"><img style="height: 55%; object-fit: contain;" src="images/fenalco.png" alt=""></a>
                                 </div>
 

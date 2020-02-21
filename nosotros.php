@@ -23,7 +23,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section id="banner">
         <div class="col-12 p-0">
             <div class="col-12 cont_texto_banner text-center position-absolute">
-                <h1 class="font-weight-bold rutas txt_principal titulo_importante"> NOSOTROS </h1>
+                <h1 class="font-weight-bold rutas txt_principal" style="color: white;"> NOSOTROS </h1>
                 <h5 class="justify-content-center row rutas"> Inicio / Nosotros </h5>
             </div>
             <img src="images/banner_quienes_somos.jpg" alt="">
@@ -34,7 +34,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
         <div class="container tamaño_cont">
             <div class="justify-content-center">
                 <div class="col-md-11 col-lg-12 col-10">
-                    <h2 class="mb-3  titulo_principal font-weight-bold titulo_importante">Quiénes Somos</h2>
+                    <h2 class="mb-3  titulo_principal font-weight-bold titulo_importante_quienes">Quiénes Somos</h2>
                     <div style="position:relative;">
                         <div class="col-12 text-justify">
                             <div class="row">
@@ -43,18 +43,23 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                         <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-12 d-flex p-0 mt-3">
+                                <div class="col-12 row p-0 mt-3">
                                     <div class="col-6">
-                                        <h5 class="ml-0 titulo_principal font-weight-bold">Misión</h5>
-                                        <p><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
+                                        <img src="images/no_image.png" width="100%" alt="">
                                     </div>
-                                    <div class="col-6">
-                                        <h5 class="ml-0 titulo_principal font-weight-bold">Visión</h5>
-                                        <p><?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
+                                    <div class="col-6 row d-flex align-items-center">
+                                        <div class="col-12">
+                                            <h5 class="ml-0 titulo_principal font-weight-bold titulo_importante_quienes">Misión</h5>
+                                            <p><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
+                                        </div>
+                                        <div class="col-12">
+                                            <h5 class="ml-0 titulo_principal font-weight-bold titulo_importante_quienes">Visión</h5>
+                                            <p><?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-3 p-0 mt-5">
-                                    <h5 class="text-center titulo_principal font-weight-bold">Valores Corporativos</h5>
+                                    <h5 class="text-center titulo_principal font-weight-bold titulo_importante_quienes">Valores Corporativos</h5>
 
                                     <div class="col-12 d-flex justify-content-center">
                                         <div class="col-2 text-center mt-2 color_fondo">

@@ -32,7 +32,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                 <h1 class="font-weight-bold rutas txt_principal"> Detalle de Inmueble </h1>
                 <h5 class="justify-content-center row rutas"> Inicio / Inmuebles / Detalle de Inmueble </h5>
             </div>
-            <img src="images/banner_servicios.jpg" alt="">
+            <img src="images/banner_detalle_inmueble.jpg" alt="">
         </div>
     </section>
 
@@ -151,6 +151,12 @@ $inmobiliaria = 'Andina Inmobiliaria';
                             </div>
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
                                 <textarea cols="15" rows="5" name="message" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox mb-4">
+                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
+                                    <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                </div>
                             </div>
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
                                 <button type="button" class="btn btn_Asesor col-12">Enviar</button>

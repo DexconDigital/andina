@@ -8225,7 +8225,7 @@ p, b {
   color: #0000A0; }
 
 .espacio_top {
-  padding-top: 9% !important; }
+  padding-top: 3% !important; }
 
 .color_llamanos {
   color: white; }
@@ -8401,6 +8401,9 @@ p, b {
 
 #footer {
   background-color: #0000A0; }
+  #footer h5 {
+    line-height: 24px;
+    color: white; }
   #footer p {
     line-height: 24px;
     color: white; }
@@ -8459,6 +8462,25 @@ p, b {
   left: 0;
   right: 0;
   margin: auto; }
+
+#aliados #contenedor_aliados .cont_img {
+  overflow: hidden; }
+
+#aliados #contenedor_aliados .animacion_logo {
+  -webkit-animation: animacion_logo 10s ease-in-out infinite alternate;
+  animation: animacion_logo 10s ease-in-out infinite alternate; }
+
+@-webkit-keyframes animacion_logo {
+  from {
+    margin-left: 0; }
+  to {
+    margin-left: -630%; } }
+
+@keyframes animacion_logo {
+  from {
+    margin-left: 0; }
+  to {
+    margin-left: -630%; } }
 
 .owl-carousel .owl-nav {
   overflow: hidden;
@@ -8561,6 +8583,9 @@ span.img-text {
 
 #aliados .titulo_principal {
   padding-left: 9px !important; }
+
+.titulo_importante_quienes {
+  color: #0000A0; }
 
 #acordion .lista {
   text-align: left;
@@ -8753,3 +8778,6 @@ span.img-text {
 
 #mapa iframe {
   width: 100%; }
+
+#modal_consigana h5 {
+  color: black; }
