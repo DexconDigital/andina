@@ -38,10 +38,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
 
     <!-- cards inmuebles -->
     <section>
-        <div class="col-11 container">
+        <div class="col-12 container">
             <div class="d-flex justify-content-around">
                 <div class="col-4 p-0">
-                    <div class="position-relative card cards_inmueble" style="width: 26rem;">
+                    <div class="position-relative card cards_inmueble" style="width: 25rem;">
                         <a href="detalle_inmueble.php">
                             <div class="contenedor_imagen position-relative">
                                 <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
@@ -83,7 +83,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     </div>
                 </div>
                 <div class="col-4 p-0">
-                    <div class="position-relative card cards_inmueble" style="width: 26rem;">
+                    <div class="position-relative card cards_inmueble" style="width: 25rem;">
                         <a href="detalle_inmueble.php">
                             <div class="contenedor_imagen position-relative">
                                 <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
@@ -125,7 +125,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     </div>
                 </div>
                 <div class="col-4 p-0">
-                    <div class="position-relative card cards_inmueble" style="width: 26rem;">
+                    <div class="position-relative card cards_inmueble" style="width: 25rem;">
                         <a href="detalle_inmueble.php">
                             <div class="contenedor_imagen position-relative">
                                 <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
