@@ -45,7 +45,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 </div>
                                 <div class="col-12 row p-0 mt-3">
                                     <div class="col-6">
-                                        <img src="images/no_image.png" width="100%" alt="">
+                                        <img src="images/mision_vision.jpg" width="100%" alt="">
                                     </div>
                                     <div class="col-6 row d-flex align-items-center">
                                         <div class="col-12">
