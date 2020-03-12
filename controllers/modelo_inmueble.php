@@ -112,7 +112,7 @@ function modelo_inmueble2($r)
                     <p>' . $descripcion . '</p>
                 </div>
                 <div class="col-12 text-center">
-                    <a href="#" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
+                    <a href="detalle_inmueble.php?co=' . $codigo . '" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
                 </div>
             </div>
             <div class="tipo_inmueble">
