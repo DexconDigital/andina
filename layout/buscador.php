@@ -2,29 +2,29 @@
     <div class="row">
         <div class="col-2 p-1">
             <div class="form-group">
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="tipo_inmueble_buscar">
                     <option selected="" value="0">Tipo de Inmueble</option>
                 </select>
             </div>
         </div>
         <div class="col-2 p-1">
             <div class="form-group">
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="tipo_gestion_buscar">
                     <option selected="" value="0">Tipo de Gestión</option>
                 </select>
             </div>
         </div>
         <div class="col-2 p-1">
             <div class="form-group">
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="ciudad_buscar">
                     <option selected="" value="0">Ciudad</option>
                 </select>
             </div>
         </div>
         <div class="col-2 p-1">
             <div class="form-group">
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option selected default> Barrio </option>
+                <select class="form-control" id="barrio_buscar">
+                    <option selected="" value="0"> Barrio </option>
                 </select>
             </div>
         </div>
@@ -33,7 +33,7 @@
         </div>
         <div class="col p-1">
             <div class="form-group">
-                <button type="submit" class="btn btn-primary mb-3 btn_buscar">Buscar</button>
+                <button type="button" class="btn btn-primary mb-3 btn_buscar" id="buscar">Buscar</button>
             </div>
         </div>
     </div>
@@ -61,16 +61,6 @@
                 <input placeholder="Garajes " type="number" class="form-control f1" id="garajes_buscar" aria-describedby="emailHelp">
             </div>
         </div>
-        <div class="col-3 p-1">
-            <div class="form-group">
-                <input type="number" class="form-control" id="area_minima_buscar" placeholder="Área Mínima">
-            </div>
-        </div>
-        <div class="col-3 p-1">
-            <div class="form-group">
-                <input type="number" class="form-control" id="area_maxima_buscar" placeholder="Área Máxima">
-            </div>
-        </div>
         <div class="col-6 p-1">
             <div class="wrapper">
                 <div class="range-slider" id="areas">
@@ -82,6 +72,16 @@
                         <input type="text" class="js-input-to form-control" id="area_maxima_buscar" value="0" aria-describedby="emailHelp" />
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="col-3 p-1">
+            <div class="form-group">
+                <input type="number" class="form-control" id="precio_minimo_buscar" placeholder="Precio Mínimo">
+            </div>
+        </div>
+        <div class="col-3 p-1">
+            <div class="form-group">
+                <input type="number" class="form-control" id="precio_maximo_buscar"  placeholder="Precio Máximo">
             </div>
         </div>
     </div>

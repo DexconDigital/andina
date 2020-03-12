@@ -40,7 +40,7 @@ $(document).ready(function () {
             $('#owl-propiedades').owlCarousel({
                 loop: true,
                 margin: 10,
-                autoplay: true,
+                // autoplay: true,
                 autoplayTimeout: 2000,
                 responsive: {
                     0: {
@@ -60,7 +60,7 @@ $(document).ready(function () {
                 margin: 10,
                 nav: true,
                 autoplay: true,
-                autoplayTimeout: 2000,
+                autoplayTimeout: 3000,
                 dots: true,
                 responsive: {
                     0: {
@@ -81,7 +81,7 @@ $(document).ready(function () {
                 nav: true,
                 dots: true,
                 autoplay: true,
-                autoplayTimeout: 2000,
+                autoplayTimeout: 3000,
                 navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
                 responsive: {
                     0: {

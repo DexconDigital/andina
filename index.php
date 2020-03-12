@@ -63,7 +63,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                 <div class="col-md-11 col-lg-12 col-10">
                     <h2 class="mb-4 ml-0 font-weight-bold titulo_importante">Propiedades Destacadas</h2>
                     <div style="position:relative;">
-                        <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
+                        <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="20s" id="owl-propiedades">
                             <?php if (is_array($api)) {
                                 inmuebles_destacados($api);
                             } else {
@@ -186,5 +186,9 @@ $inmobiliaria = 'Andina Inmobiliaria';
 <?php include 'layout/archivosfooter.php'; ?>
 <!-- barra de rangos -->
 <script src="js/rangos.js"></script>
+<script src="conexion_api/token_api.js"></script>
+<script src="conexion_api/validadores.js"></script>
+<script src="conexion_api/buscador.js"></script>
+
 
 </html>

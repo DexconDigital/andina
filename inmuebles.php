@@ -1,5 +1,6 @@
 <?php
 require 'variables/variables.php';
+require 'controllers/inmueblesController.php';
 $pagina = 'Inmuebles';
 $inmobiliaria = 'Andina Inmobiliaria';
 ?>
@@ -39,134 +40,40 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <!-- cards inmuebles -->
     <section>
         <div class="col-12 container">
-            <div class="d-flex justify-content-around">
-                <div class="col-4 p-0">
-                    <div class="position-relative card cards_inmueble" style="width: 25rem;">
-                        <a href="detalle_inmueble.php">
-                            <div class="contenedor_imagen position-relative">
-                                <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
-                                <div class="position-absolute w-100 h-100 caja_negra"></div>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <div class="d-flex align-items-baseline">
-                                <i class="mr-1 fas fa-map-marker-alt"></i>
-                                <h5> Barrio - Ciudad</h5>
-                            </div>
-                            <div class="d-flex align-items-baseline">
-                                <label> Código: 1234</label>
-                            </div>
-                            <div class="">
-                                <ul class=" list_iconos_cards d-flex p-0 justify-content-around">
-                                    <li> <i class="fas fa-chart-area mr-2"></i>5m<sup>2</sup></li>
-                                    <li> <i class=" fas fa-bath mr-2"></i>3</li>
-                                    <li> <i class="fas fa-bed mr-2"></i>5</li>
-                                    <li> <i class="fas fa-warehouse mr-2"></i>2</li>
-                                </ul>
-                            </div>
-                            <div class="text-justify">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis ratione quo mollitia, deserunt sequi non, consequuntur, culpa magnam facere laborum sed suscipit distinctio molestias praesentium odit labore nobis harum?</p>
-                            </div>
-                            <div class="col-12 text-center">
-                                <a href="detalle_inmueble.php" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="tipo_inmueble">
-                            <p class="ml-2">Apartamento</p>
-                        </div>
-                        <div class="tipo_gestion">
-                            <p class="mr-2">En Arriendo</p>
-                        </div>
-                        <div class="precio">
-                            <span class="ml-2">$ 1.000.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 p-0">
-                    <div class="position-relative card cards_inmueble" style="width: 25rem;">
-                        <a href="detalle_inmueble.php">
-                            <div class="contenedor_imagen position-relative">
-                                <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
-                                <div class="position-absolute w-100 h-100 caja_negra"></div>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <div class="d-flex align-items-baseline">
-                                <i class="mr-1 fas fa-map-marker-alt"></i>
-                                <h5> Barrio - Ciudad</h5>
-                            </div>
-                            <div class="d-flex align-items-baseline">
-                                <label> Código: 1234</label>
-                            </div>
-                            <div class="">
-                                <ul class=" list_iconos_cards d-flex p-0 justify-content-around">
-                                    <li> <i class="fas fa-chart-area mr-2"></i>5m<sup>2</sup></li>
-                                    <li> <i class=" fas fa-bath mr-2"></i>3</li>
-                                    <li> <i class="fas fa-bed mr-2"></i>5</li>
-                                    <li> <i class="fas fa-warehouse mr-2"></i>2</li>
-                                </ul>
-                            </div>
-                            <div class="text-justify">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis ratione quo mollitia, deserunt sequi non, consequuntur, culpa magnam facere laborum sed suscipit distinctio molestias praesentium odit labore nobis harum?</p>
-                            </div>
-                            <div class="col-12 text-center">
-                                <a href="#" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="tipo_inmueble">
-                            <p class="ml-2">Apartamento</p>
-                        </div>
-                        <div class="tipo_gestion">
-                            <p class="mr-2">En Arriendo</p>
-                        </div>
-                        <div class="precio">
-                            <span class="ml-2">$ 1.000.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 p-0">
-                    <div class="position-relative card cards_inmueble" style="width: 25rem;">
-                        <a href="detalle_inmueble.php">
-                            <div class="contenedor_imagen position-relative">
-                                <img src="images/no_image.png" class="position-absolute w-100 h-100 card-img-top" alt="...">
-                                <div class="position-absolute w-100 h-100 caja_negra"></div>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <div class="d-flex align-items-baseline">
-                                <i class="mr-1 fas fa-map-marker-alt"></i>
-                                <h5> Barrio - Ciudad</h5>
-                            </div>
-                            <div class="d-flex align-items-baseline">
-                                <label> Código: 1234</label>
-                            </div>
-                            <div class="">
-                                <ul class=" list_iconos_cards d-flex p-0 justify-content-around">
-                                    <li> <i class="fas fa-chart-area mr-2"></i>5m<sup>2</sup></li>
-                                    <li> <i class=" fas fa-bath mr-2"></i>3</li>
-                                    <li> <i class="fas fa-bed mr-2"></i>5</li>
-                                    <li> <i class="fas fa-warehouse mr-2"></i>2</li>
-                                </ul>
-                            </div>
-                            <div class="text-justify">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis ratione quo mollitia, deserunt sequi non, consequuntur, culpa magnam facere laborum sed suscipit distinctio molestias praesentium odit labore nobis harum?</p>
-                            </div>
-                            <div class="col-12 text-center">
-                                <a href="#" class="btn btnn_detalle col-6">Detalle <i class="icon_detalle fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="tipo_inmueble">
-                            <p class="ml-2">Apartamento</p>
-                        </div>
-                        <div class="tipo_gestion">
-                            <p class="mr-2">En Arriendo</p>
-                        </div>
-                        <div class="precio">
-                            <span class="ml-2">$ 1.000.000</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="row justify-content-around">
+                <!-- propiedades -->
+                <?php
+                if (is_array($api)) {
+                    listar_inmuebles($api['Inmuebles']);
+                } else {
+                    echo '<div class="col-12">
+                        <h2 class="text-center" >No se encontraron inmuebles</h2>
+                    </div>';
+                }
+                ?>
             </div>
+        </div>
+        <div class="col-12 text-center">
+            <?php if (is_array($api)) : ?>
+                <ul class="pagination mt-4 align-items-end justify-content-center">
+                    <?php if ($paginator->getPrevUrl()) : ?>
+                        <li class="page-item"><a href="<?php echo $paginator->getPrevUrl(); ?>" class="page-link">&laquo;</a></li>
+                    <?php endif; ?>
+                    <?php foreach ($paginator->getPages() as $page) : ?>
+                        <?php if ($page['url']) : ?>
+                            <li <?php echo $page['isCurrent'] ? 'class="page-item active"' : ''; ?>>
+                                <a href="<?php echo $page['url']; ?>" class="page-link"><?php echo $page['num']; ?></a>
+                            </li>
+                        <?php else : ?>
+                            <li class="page-item disabled"><span><?php echo $page['num']; ?></span></li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+
+                    <?php if ($paginator->getNextUrl()) : ?>
+                        <li class="page-item"><a href="<?php echo $paginator->getNextUrl(); ?>" class="page-link">&raquo;</a></li>
+                    <?php endif; ?>
+                </ul>
+            <?php endif; ?>
         </div>
     </section>
 
@@ -178,5 +85,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
 <?php include 'layout/archivosfooter.php'; ?>
 <!-- barra de rangos -->
 <script src="js/rangos.js"></script>
+<script src="conexion_api/token_api.js"></script>
+<script src="conexion_api/validadores.js"></script>
+<script src="conexion_api/buscador.js"></script>
 
 </html>

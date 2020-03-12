@@ -129,3 +129,11 @@
 .mapa{
     margin-bottom: -2%;
 }
+
+.similares{
+    color:black;
+   &:hover{
+    text-decoration: none;
+    color: #0000A0;
+   }
+}
