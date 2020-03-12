@@ -234,9 +234,28 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     <div class="tab-content" id="myTabContent">
                         <!-- Descripcion -->
                         <div class="tab-pane fade show active" id="descrip" role="tabpanel" aria-labelledby="home-tab">
-                            <h5 class="font-weight-bold ">Descripción</h5>
+                            <?php
+                            if ($descripcion != "") {
+                                echo ' <h5 class="font-weight-bold ">Descripción</h5>
+                                 <hr>
+                                 <p>' . $descripcion . '</p>';
+                            }
+                            ?>
+                            <h5 class="font-weight-bold mt-4 ">Características</h5>
                             <hr>
-                            <?php echo  $r['descripcionlarga']; ?>
+                            <ul class="">
+                                <li>Código: <?php echo $co; ?></li>
+                                <li>Alcobas: <?php echo $alcobas; ?></li>
+                                <li>Baños: <?php echo $banios; ?></li>
+                                <li>Área Construida: <?php echo $area_construida; ?>m<sup>2<sup></li>
+                                <li>Área Privada: <?php echo $area_privada; ?>m<sup>2<sup></li>
+                                <li>Garaje: <?php echo $garaje; ?></li>
+                                <li>Estrato: <?php echo $estrato; ?></li>
+                                <li>Edad Inmueble: <?php echo $edad_inmueble; ?> años</li>
+                                <?php if ($administracion != "") {
+                                    echo '<li>Administración: $' . $administracion . '</li>';
+                                } ?>
+                            </ul>
                         </div>
                         <!-- caracteristicas internas -->
                         <div class="tab-pane fade" id="inter" role="tabpanel" aria-labelledby="profile-tab">

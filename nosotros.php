@@ -104,22 +104,22 @@ $inmobiliaria = 'Andina Inmobiliaria';
     </section>
     <!-- bannner contador -->
     <section id="estadisticas" class="mt-5">
-        <div class="col-12">
+        <div class="col-12" id="contador">
             <div class="row text-center">
                 <div class="col-3">
-                    <h2 class="font-weight-bold"></i> 10</h2>
+                    <h2 class="font-weight-bold" id="counter-propertys"></h2>
                     <p>Total Inmuebles</p>
                 </div>
                 <div class="col-3">
-                    <h2 class="font-weight-bold"> </i> 10</h2>
+                    <h2 class="font-weight-bold" id="counter-rent"></h2>
                     <p>Total Arriendo</p>
                 </div>
                 <div class="col-3">
-                    <h2 class="font-weight-bold"></i> 10</h2>
+                    <h2 class="font-weight-bold" id="counter-sale"></h2>
                     <p>Total Venta</p>
                 </div>
                 <div class="col-3">
-                    <h2 class="font-weight-bold"></i> 10</h2>
+                    <h2 class="font-weight-bold" id="counter-sale-rent"></h2>
                     <p>Total Arriendo/Venta</p>
                 </div>
             </div>
@@ -132,5 +132,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
     </section>
 </body>
 <?php include 'layout/archivosfooter.php'; ?>
+<!--  contador -->
+<script src="js/countUp.min.js"></script>
+<script src="js/counter-propertys.js"></script>
 
 </html>
