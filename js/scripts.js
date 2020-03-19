@@ -17,6 +17,21 @@ $(document).ready(function () {
 
         }
     });
+    $('.div_movil').click(function () {
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 200);
+    });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 40) {
+            $('.div_movil').fadeIn(500);
+
+        } else {
+            $('.div_movil').fadeOut(500);
+
+        }
+    });
 
     if (pagina == 'inicio') {
 
@@ -41,7 +56,7 @@ $(document).ready(function () {
                 loop: true,
                 margin: 10,
                 // autoplay: true,
-                autoplayTimeout: 2000,
+                // autoplayTimeout: 2000,
                 responsive: {
                     0: {
                         items: 1
@@ -50,7 +65,7 @@ $(document).ready(function () {
                         items: 1
                     },
                     1000: {
-                        items: 1
+                        items: 3
                     }
                 }
             })
@@ -59,18 +74,18 @@ $(document).ready(function () {
                 loop: true,
                 margin: 10,
                 nav: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
+                // autoplay: true,
+                // autoplayTimeout: 3000,
                 dots: true,
                 responsive: {
                     0: {
                         items: 1
                     },
                     600: {
-                        items: 2
+                        items: 1
                     },
                     1000: {
-                        items: 2
+                        items: 3
                     }
                 }
             })
@@ -80,8 +95,8 @@ $(document).ready(function () {
                 margin: 10,
                 nav: true,
                 dots: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
+                // autoplay: true,
+                // autoplayTimeout: 3000,
                 navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
                 responsive: {
                     0: {
@@ -131,7 +146,8 @@ $(document).ready(function(){
 		} else {
 			$('.menu').removeClass('menu-fixed');
 		}
-	});
-
+    });
 });
+
+
 

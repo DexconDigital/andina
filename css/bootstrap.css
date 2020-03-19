@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: 'roboto';
+  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -54,7 +54,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'roboto';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -232,7 +232,8 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto;
+  
 }
 
 input,
@@ -613,8 +614,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .col {
@@ -3677,7 +3678,6 @@ input[type="button"].btn-block {
 
 .custom-checkbox .custom-control-label::before {
   border-radius: 0.25rem;
-  
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
@@ -4849,14 +4849,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #13294b;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #2e4260;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4882,8 +4882,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #0000A0 !important;
-  border-color: #0000A0 !important;
+  background-color: #13294b;
+  border-color: #13294b;
 }
 
 .page-item.disabled .page-link {
@@ -4966,7 +4966,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #13294b;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5281,7 +5281,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #007bff;
+  background-color: #13294b;
   transition: width 0.6s ease;
 }
 
@@ -6240,7 +6240,6 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
-
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -6336,11 +6335,8 @@ a.close.disabled {
   opacity: 0.9;
 }
 
-@media (max-width:425px){
-  .carousel-control-prev {
-    left: 0;
-    
-  }
+.carousel-control-prev {
+  left: 0;
 }
 
 .carousel-control-next {
@@ -6353,6 +6349,7 @@ a.close.disabled {
   width: 20px;
   height: 20px;
   background: no-repeat 50% / 100% 100%;
+  background-color: #808184;
 }
 
 .carousel-control-prev-icon {

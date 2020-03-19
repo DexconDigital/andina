@@ -50,9 +50,12 @@
  <div class="fondo_buscador">
      <div class="col-12 d-flex p-0">
          <div class="col-7">
-             <a class="nav-link active contedor_logo ml-4 p-0" href="index.php"><img src="images/logo.png" alt=""></a>
+             <a class="nav-link active contedor_logo ml-4 p-0" href="index.php"><img class="img" src="images/logo.png" alt=""></a>
+             <!-- <div class="div_movil2">
+                 <a class="nav-link active contedor_logo ml-4 p-0 border text-center" href="index.php"><img src="images/logo blanco.png" alt=""></a>
+             </div> -->
          </div>
-         <div class="col-2">
+         <div class="col-2 redes align-items-center">
 
              <ul class="lista_redes justify-content-center p-0 espacio_top">
                  <li class="mr-4 estilo_icono_foot">
@@ -67,8 +70,28 @@
              </ul>
 
          </div>
-         <div class="col-3 fondo_div d-flex align-items-center">
+         <div class="col-10 redes_dos align-items-center">
+
+             <ul class="lista_redes justify-content-center p-0 espacio_top">
+                 <li class="mr-4 estilo_icono_foot">
+                     <a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank" class="color_iconos color_facebook"> <i class="fab fa-facebook-f"></i></a>
+                 </li>
+                 <li class="mr-4 estilo_icono_foot">
+                     <a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="_blank" class="color_iconos color_insta"><i class=" fab fa-instagram"></i></a>
+                 </li>
+                 <li class="estilo_icono_foot">
+                     <a href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank" class="color_iconos color_wapp"> <i class="color_wapp fab fa-whatsapp"></i></a>
+                 </li>
+             </ul>
+
+         </div>
+         <div class="col-3 fondo_div d-flex align-items-center telefono">
              <div class="align-items-center  col-12 text-center">
+                 <h5 class="color_llamanos">Llámanos: <a href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?></a></h5>
+             </div>
+         </div>
+         <div class="col-5 fondo_div d-flex align-items-center telefono2">
+             <div class="align-items-center  col-12 text-center p-0">
                  <h5 class="color_llamanos">Llámanos: <a href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?></a></h5>
              </div>
          </div>
@@ -76,22 +99,33 @@
  </div>
  <!-- segundo nav -->
  <div id="nav" class="fondo_buscador1 menu">
+     <!-- <div class="div_movil" style="display:none;">
+         <a class="nav-link active contedor_logo ml-4 p-0 border text-center" href="index.php"><img src="images/logo blanco.png" alt=""></a>
+     </div> -->
      <nav class="navbar navbar-expand-lg ml-4">
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
+             <span class="navbar-toggler-icon"><i class="fas fa-align-justify mt-1"></i></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav">
-                 <li class="nav-item linea mr-2 position-relative <?php if ($pagina == 'Inicio') { echo 'active'; } ?>">
+                 <li class="nav-item linea mr-2 position-relative <?php if ($pagina == 'Inicio') {
+                                                                        echo 'active';
+                                                                    } ?>">
                      <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                  </li>
-                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Nosotros') { echo 'active'; } ?>">
+                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Nosotros') {
+                                                        echo 'active';
+                                                    } ?>">
                      <a class="nav-link" href="nosotros.php">Nosotros</a>
                  </li>
-                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Servicios') { echo 'active'; } ?>">
+                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Servicios') {
+                                                        echo 'active';
+                                                    } ?>">
                      <a class="nav-link" href="servicios.php">Servicios</a>
                  </li>
-                 <li class="nav-item linea mr-2  <?php if ($pagina =='Inmuebles' || $pagina =='Detalle de Inmueble') { echo 'active'; } ?>">
+                 <li class="nav-item linea mr-2  <?php if ($pagina == 'Inmuebles' || $pagina == 'Detalle de Inmueble') {
+                                                        echo 'active';
+                                                    } ?>">
                      <a class="nav-link" href="inmuebles.php?">Inmuebles</a>
                  </li>
                  <li class="nav-item dropdown">
@@ -107,7 +141,9 @@
                  <li class="nav-item linea mr-2">
                      <a class="nav-link" href="#" data-toggle="modal" data-target="#consigna">Consignar Inmueble</a>
                  </li>
-                 <li class="nav-item linea mr-2 <?php if ($pagina == 'Contacto') { echo 'active'; } ?>">
+                 <li class="nav-item linea mr-2 <?php if ($pagina == 'Contacto') {
+                                                    echo 'active';
+                                                } ?>">
                      <a class="nav-link" href="contacto.php">Contáctenos</a>
                  </li>
                  <li class="nav-item mr-2">
@@ -116,4 +152,5 @@
              </ul>
          </div>
      </nav>
+
  </div>

@@ -36,13 +36,24 @@ p, b {
    color: $blanco;
 }
 
-.contedor_logo{
-   img{
-      width: 30%;
-      height: 30%;
-      
-   }
-}
+// .contedor_logo{
+//    .img{
+//       width: 30%;
+//       height: 30%;
+//       display: none;
+//       @include media-breakpoint-up(md){
+//          width: 38%;
+//          display: none;
+//       }
+//       @include media-breakpoint-up(lg){
+//          width: 30%;
+//          height: 30%;
+//          display: inherit;
+//       }
+//    }
+  
+// }
+
 
 .fondo_buscador{
    background-color: $blanco;
@@ -50,6 +61,12 @@ p, b {
 
 .fondo_buscador1{
    background-color: $azul;
+   @include media-breakpoint-up(md){
+      background-color: $azul;
+   }
+   @include media-breakpoint-up(lg){
+      background-color: $azul;
+   }
    a{
       color: $blanco;
    }
@@ -386,3 +403,166 @@ color: $azul;
 #linea{
    background-color: $blanco;
 }
+
+.navbar-toggler-icon{
+   color: white !important;
+}
+.navbar-toggler{
+   border: 1px solid #ffffff !important; 
+   
+   &:focus{
+      border: 1px solid $azul !important; 
+   }
+
+}
+
+
+@media (max-width:360px) {
+   .contedor_logo{
+      img{
+         display: none;
+         height: 30%;
+         width: 38%;
+         }
+       
+      }
+}
+@media (min-width:425px) {
+   
+   .redes_dos{
+      position: absolute;
+      top: 21%;
+      display: inherit;
+      left: 10%;
+   }
+   .redes{
+      display: none;
+      
+   }
+   .telefono{
+      display: none !important;
+   }
+   .telefono2{
+      display: inherit !important;
+      padding: 10px;
+   }
+   .div_movil2{
+      width: 595px;
+      position: absolute;
+      top: 100%;
+      left: 17%;
+      z-index: 100;
+   }
+
+   .contedor_logo{
+      img{
+         display: none;
+         width: 30%;
+         height: 30%;
+   }
+   
+}
+
+@media (min-width:730px) {
+   .div_movil2{
+      width: 595px;
+      position: absolute;
+      top: 100%;
+      left: 17%;
+      z-index: 100;
+   }
+   .div_movil{
+      width: 595px;
+      position: absolute;
+      left: 10%;
+      z-index: 100;
+   }
+   .redes{
+      display: none !important;
+      
+   }
+   .redes_dos{
+      position: absolute;
+      top: -11%;
+      display: inherit;
+      left: 10%;
+      
+   }
+   .telefono2{
+      display: inherit !important;
+      padding: 10px;
+   }
+   .contedor_logo{
+      img{
+         display: none;
+         height: 30%;
+         width: 38%;
+         }
+       
+      }
+      
+     
+}
+@media (min-width:1024px) {
+   .redes_dos{
+      display: none;
+   }
+   .redes{
+      display: inherit !important;
+   }
+   .telefono{
+      display: inherit !important;
+   }
+   .telefono2{
+      display: none !important;
+   }
+   .div_movil2{
+      display: none;
+   }
+   .div_movil{
+      
+      display: none !important;
+   }
+   .contedor_logo{
+      img{
+         display: inherit;
+        width: 30%;
+        height: 30%;
+            
+         }
+      }
+     
+   }
+}
+
+@media (min-width:1440px) {
+   .redes_dos{
+      display: none !important;
+   }
+   .redes{
+      display: inherit !important;
+      }
+      .telefono{
+         display: inherit !important;
+}
+   .telefono2{
+      display: none !important;
+   }
+   .div_movil2{
+         display: none;
+   }
+   .div_movil{
+      
+      display: none !important;
+   }
+   .contedor_logo{
+      img{
+         display: inherit;
+        width: 30%;
+        height: 30%;
+            
+         }
+      }
+      
+}
+

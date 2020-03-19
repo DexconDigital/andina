@@ -54,6 +54,22 @@
         position: relative;
         right: 22px;
         top: -24px;
+
+        @media (min-width:360px) {
+            right: 22px;
+        }
+        @media (min-width:425px) {
+            right: 22px;
+        }
+        @media (min-width:730px) {
+            right: 15px;
+        }
+        @media (min-width:1024px) {
+            right: 22px;
+        }
+        @media (min-width:1440px) {
+            right: 22px;
+        }
         
     }
 }

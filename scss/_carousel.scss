@@ -127,7 +127,28 @@
   display: inline-block;
   width: 37px;
   height: 56px;
-  background: no-repeat 50% / 100% 100%;
+  background: no-repeat 50% / 100% 100%; 
+
+  @media (min-width:350px) {
+    width: 37px;
+    height: 56px;
+    }
+
+  @media (min-width:425px) {
+    width: 16px;
+    height: 28px;
+    }
+
+  @media (min-width:730px) {
+    width: 23px;
+    height: 35px;
+    }
+
+  @media (min-width:1440px) {
+  width: 37px;
+  height: 56px;
+  }
+
 }
 .carousel-control-prev-icon {
   background-image: $carousel-control-prev-icon-bg;

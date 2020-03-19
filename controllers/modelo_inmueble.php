@@ -11,7 +11,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
 
         echo '
      
-        <div class="position-relative card" style="width: 24rem;">
+        <div class="position-relative card">
                    <a href="detalle_inmueble.php?co=' . $codigo . '">
                     <div class="contenedor_imagen position-relative">
                        <img src="' . $imagen . '" class="position-absolute w-100 h-100 card-img-top" alt="...">

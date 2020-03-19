@@ -1,4 +1,4 @@
-const IMG_DEFAULT = 'images/no_image.png';
+// const IMG_DEFAULT = 'images/no_image.png';
 
 var validarImagenInmueble = function(inmueble){
     if(inmueble.foto1 == ""){
