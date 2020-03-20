@@ -4,10 +4,10 @@
 <div class="container tamaño_cont">
     <div class="justify-content-center">
         <div class="col-md-11 col-lg-12 col-10">
-            <div class="col-12 p-5">
+            <div class="col-12 cont-footer">
                 <div class="row">
                     <!-- datos contacto -->
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <h5 class="font-weight-bold">Datos de contacto</h5>
                         <div class="col-12 mb-3 p-0">
                             <i class="fas fa-map-marker-alt icon"></i> <a id="link"> Andina Inmobiliaria S.A.S, M.A.V.U No 0006/11SGM.</a>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <!-- horarios -->
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <h5 class="font-weight-bold">Horarios de atención</h5>
                         <div class="col-12 mb-3 p-0">
                             <i class="fas fa-calendar-alt icon"></i> <a id="link">Lunes a jueves de 7:30AM a 12:30PM y de 1:30PM a 5:30PM.</a>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <!-- formualrios -->
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <h5 class="font-weight-bold"> Descarga de formularios Libertador</h5>
                         <div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Natural.pdf" target="_blank">Persona Natural</a>
@@ -64,7 +64,7 @@
 <hr id="linea" width="90%">
 <!-- segund div -->
 <div class="footer-bottom-area">
-    <div class="container  text-center p-2">
+    <div class="container  text-center footer2">
         <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com" target="_blanck">Dexcon Digital.</a>©Copyright 2020 para Andina Inmobiliaria.
             Todos los derechos reservados. <a href="" class="color_a_foot_imper">Politica de Datos</a> </p>
     </div>

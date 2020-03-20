@@ -78,14 +78,14 @@ function modelo_inmueble2($r)
             $descripcion = substr($descripcion, 0, $limite_de_cadena) . '...';
             $ciudad = substr($ciudad, 0, $limite_barrio_cadena) . '';
         } else {
-            $descripcion = $descripcion . '...<br><br><br><br>';
+            $descripcion = $descripcion . '...<br><br><br>';
             $ciudad = $ciudad . '';
         }
 
         // fin de recortar cadena
         echo '
-        <div class="col-4 p-0 mb-4">
-          <div class="position-relative card cards_inmueble" style="width: 25rem;">
+        <div class="col-12 col-md-6 col-lg-4 p-0 mb-4">
+          <div class="position-relative card cards_inmueble">
             <a href="detalle_inmueble.php?co=' . $codigo . '">
                 <div class="contenedor_imagen position-relative">
                     <img src="' . $imagen . '" class="position-absolute w-100 h-100 card-img-top" alt="...">

@@ -103,9 +103,6 @@ p, b {
       color: $azul;
    }
 }
-.espacio_top{
-   padding-top: 3% !important;
-}
 .color_llamanos{
    color: $blanco;
    a{
@@ -426,12 +423,49 @@ color: $azul;
          }
        
       }
+      .espacio_responsive{
+         margin-bottom: 3.5rem ;
+      }
+      .redes{
+         display: none !important;
+         
+      }
+      .telefono{
+         display: none !important;
+      }
+      .redes_dos{
+         position: absolute;
+         top: 8%;
+         display: inherit;
+         left: 6%;
+     
+      }
+      .cont-footer{
+         padding: inherit;
+         margin-top: 12%;
+      }
+      .footer2{
+         margin-bottom: 14%;
+      }
+      .cont_responsive{
+         font-size: 15px;
+      }
+      .info_conatcto{
+         padding: inherit;
+         margin-top: 7%;
+      }
+      .espacio_top{
+         padding-top: 7% !important;
+      }
+      .datos_inmueble{
+         padding: 3%;
+      }
 }
 @media (min-width:425px) {
    
    .redes_dos{
       position: absolute;
-      top: 21%;
+      top: -2%;
       display: inherit;
       left: 10%;
    }
@@ -459,8 +493,39 @@ color: $azul;
          display: none;
          width: 30%;
          height: 30%;
+      }
+      .responsbe_tabs{
+         padding: 3%;
+      }
    }
-   
+
+   .espacio_responsive{
+      margin-bottom: 3.5rem ;
+   }
+   .cont-footer{
+      padding: inherit;
+      margin-top: 12%;
+   }
+
+   .footer2{
+      margin-bottom: 14%;
+   }
+   .cont_responsive{
+      font-size: 15px;
+   }
+   .info_conatcto{
+      padding: inherit;
+      margin-top: 7%;
+   }
+   .espacio_top{
+      padding-top: 7% !important;
+   }
+   .responsbe_tabs{
+      padding: 3%;
+   }
+   .datos_inmueble{
+      padding: 3%;
+   }
 }
 
 @media (min-width:730px) {
@@ -483,7 +548,7 @@ color: $azul;
    }
    .redes_dos{
       position: absolute;
-      top: -11%;
+      top: -36%;
       display: inherit;
       left: 10%;
       
@@ -501,7 +566,40 @@ color: $azul;
        
       }
       
-     
+      .espacio_responsive{
+         margin-bottom: 1.5rem ;
+      }
+      .cont-footer{
+         padding: 3rem;
+         margin-top: inherit;
+      }
+      .footer2{
+         margin-bottom: 5%;
+      }
+      .cont_responsive{
+         font-size: 16px;
+      }
+      .info_conatcto{
+         padding: inherit;
+         margin-top: 7%;
+      }
+      .espacio_top{
+         padding-top: 5% !important;
+      }
+      .responsbe_tabs{
+         padding: 3%;
+      }
+      .datos_inmueble{
+         padding: 3%;
+      }
+      .div_primero{
+         margin-top: -14%;
+    left: 10%;
+      }
+      #cont_tab .tab_conte .nav-tabs li{
+         font-size: 9px !important;
+         padding-left: 5px;
+      }
 }
 @media (min-width:1024px) {
    .redes_dos{
@@ -531,9 +629,42 @@ color: $azul;
             
          }
       }
-     
+      .espacio_responsive{
+         margin-bottom: 1.5rem ;
+      }
+      .cont-footer{
+         padding: 3rem;
+         margin-top: inherit;
+      }
+      .footer2{
+         margin-bottom: 0%;
+      }
+      .cont_responsive{
+         font-size: 16px;
+      }
+      .info_conatcto{
+         padding: 1.5rem;
+         margin-top: inherit;
+      }
+      .espacio_top{
+         padding-top: 6% !important;
+      }
+      .responsbe_tabs{
+         padding: inherit;
+      }
+      .datos_inmueble{
+         padding: 0%;
+      }
+      .div_primero{
+      margin-top: inherit;
+      left: inherit;
+      }
+      #cont_tab .tab_conte .nav-tabs li{
+         font-size: 8px;
+         padding-left: inherit;
+      }
    }
-}
+
 
 @media (min-width:1440px) {
    .redes_dos{
@@ -563,6 +694,40 @@ color: $azul;
             
          }
       }
-      
+
+      .espacio_responsive{
+         margin-bottom: 1.5rem ;
+      }
+      .cont-footer{
+         padding: 3rem;
+      }
+      .footer2{
+         margin-bottom: 0%;
+      }
+
+      .cont_responsive{
+         font-size: 16px;
+      }
+      .info_conatcto{
+         padding: 1.5rem;
+         margin-top: inherit;
+      }
+      .espacio_top{
+         padding-top: 6% !important;
+      }
+      .responsbe_tabs{
+         padding: inherit;
+      }
+      .datos_inmueble{
+         padding: 0%;
+      }
+      .div_primero{
+         margin-top: inherit;
+         left: inherit;
+         }
+         #cont_tab .tab_conte .nav-tabs li{
+            font-size: 14px;
+            padding-left: inherit;
+         }
 }
 

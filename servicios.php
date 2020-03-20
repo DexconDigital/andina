@@ -34,10 +34,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
         <div class="col-12 mt-4 p-0">
             <div class="container">
                 <!-- arrendamientos -->
-                <div class="col-12 text-center">
+                <div class="col-12 justify-content-center">
                     <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante">Arrendamientos</h2>
                     <div class="row">
-                        <div class="col-6  d-flex">
+                        <div class="col-12 col-md-12 col-lg-6  d-flex mb-4">
                             <div class="col-12">
                                 <div class="accordion" id="accordionExample">
                                     <div class="card">
@@ -84,21 +84,24 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 ">
-                            <img id="img_arrendamiento" src="images/arriendo.webp" alt="">
+                        <div class="col-12 col-md-12 col-lg-6 justify-content-center">
+                            <div class="col-12">
+                                <img id="img_arrendamiento" style="object-fit: contain;" src="images/arriendo.webp" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- ventas -->
+                </div> <!-- ventas -->
 
-                <div class="col-12 text-center mt-4">
+                <div class="col-12 text-center mt-5">
                     <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante"> Ventas</h2>
                     <div class="row">
-                        <div class="col-6 d-flex">
-                            <img id="img_arrendamiento" src="images/venta.jpg" alt="">
+                        <div class="col-12 col-md-12 col-lg-6 d-flex mt-3 mb-4">
+                            <div class="col-12">
+                                <img id="img_arrendamiento" src="images/venta.jpg" alt="">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <h5 class="mt-3 font-weight-bold">Nuestro equipo de trabajo le brindara el acompañamiento y la asesoría necesaria para la venta de su propiedad.</h5>
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <h5 class="mt-3 font-weight-bold pl-3 pr-3">Nuestro equipo de trabajo le brindara el acompañamiento y la asesoría necesaria para la venta de su propiedad.</h5>
                             <ul class="lista">
                                 <li>Promocionamos su inmueble en los diferentes portales inmobiliarios.</li>
                                 <li>Acompañamos y asesoramos las partes durante el proceso de negociación.</li>

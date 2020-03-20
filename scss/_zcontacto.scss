@@ -48,7 +48,22 @@
 }
 #mapa{
     .mapa_ubicacion{
-        margin-bottom: -3%;
+        @media (min-width:360px) {
+            margin-bottom: -7%;
+        }
+        @media (min-width:425px) {
+            margin-bottom: -7%;
+        }
+        @media (min-width:768px) {
+            margin-bottom: -4%;
+        }
+        @media (min-width:1024px) {
+            margin-bottom: -3%;
+        }
+        @media (min-width:1440px) {
+            margin-bottom: -3%;
+        }
+
 
     }
     iframe{

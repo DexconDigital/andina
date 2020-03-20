@@ -25,6 +25,21 @@
     padding-left: 3%;
     height: 6%;
     border-radius: 5px;
+    @media (min-width:360px) {
+            left: 73%;
+    }
+    @media (min-width:425px) {
+            left: 73%;
+    }
+    @media (min-width:730px) {
+        left: 89%;
+    }
+    @media (min-width:1024px) {
+        left: 89%;
+    }
+    @media (min-width:1440px) {
+        left: 89%;
+    }
     
  &::before{
         content: "‹";
@@ -34,6 +49,22 @@
         position: relative;
         right: 27px;
         top: -24px;
+
+        @media (min-width:360px) {
+            right: 8px;
+        }
+        @media (min-width:425px) {
+            right: 8px;
+        }
+        @media (min-width:730px) {
+            right: 15px;
+        }
+        @media (min-width:1024px) {
+            right: 27px;
+        }
+        @media (min-width:1440px) {
+            right: 27px;
+        }
         
     }
 }
@@ -46,6 +77,21 @@
     padding-left: 3%;
     height: 6%;
     border-radius: 5px;
+    @media (min-width:360px) {
+        left: 91%;
+}
+    @media (min-width:425px) {
+        left: 91%;
+}
+    @media (min-width:730px) {
+    left: 95%;
+}
+    @media (min-width:1024px) {
+    left: 95%;
+}
+    @media (min-width:1440px) {
+    left: 95%;
+}
     &::before{
         content: "›";
         // ›
@@ -56,20 +102,21 @@
         top: -24px;
 
         @media (min-width:360px) {
-            right: 22px;
+            right: 5px;
         }
         @media (min-width:425px) {
-            right: 22px;
+            right: 5px;
         }
         @media (min-width:730px) {
             right: 15px;
         }
         @media (min-width:1024px) {
-            right: 22px;
+            right: 27px;
         }
         @media (min-width:1440px) {
-            right: 22px;
+            right: 27px;
         }
+    
         
     }
 }

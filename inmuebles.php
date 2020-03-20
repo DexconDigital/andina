@@ -39,8 +39,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
 
     <!-- cards inmuebles -->
     <section>
-        <div class="col-12 container">
-            <div class="row justify-content-around">
+        <div class="col-12 justify-content-center pl-0">
+            <div class="d-flex flex-wrap">
                 <!-- propiedades -->
                 <?php
                 if (is_array($api)) {

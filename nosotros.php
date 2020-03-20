@@ -33,7 +33,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section class="propiedades mt-4 pt-0" id="aliados">
         <div class="container tamaño_cont">
             <div class="justify-content-center">
-                <div class="col-md-11 col-lg-12 col-10">
+                <div class="col-md-12 col-lg-12 col-12">
                     <h2 class="mb-3  titulo_principal font-weight-bold titulo_importante_quienes">Quiénes Somos</h2>
                     <div style="position:relative;">
                         <div class="col-12 text-justify">
@@ -43,11 +43,11 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                         <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-12 row p-0 mt-3">
-                                    <div class="col-6">
+                                <div class="col-12  d-flex flex-wrap p-0 mt-3">
+                                    <div class="col-12 col-md-12 col-lg-6 mb-5">
                                         <img src="images/mision_vision.jpg" width="100%" alt="">
                                     </div>
-                                    <div class="col-6 row d-flex align-items-center">
+                                    <div class="col-12 col-md-12 col-lg-6 d-flex flex-wrap align-items-center">
                                         <div class="col-12">
                                             <h5 class="ml-0 titulo_principal font-weight-bold titulo_importante_quienes">Misión</h5>
                                             <p><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
@@ -62,33 +62,33 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                     <h5 class="text-center titulo_principal font-weight-bold titulo_importante_quienes">Valores Corporativos</h5>
 
                                     <div class="col-12 d-flex justify-content-center">
-                                        <div class="col-2 text-center mt-2 color_fondo">
+                                        <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo">
                                             <p class="font-weight-bold espacio_int_valores"> Ética</p>
                                         </div>
-                                        <div class="col-2 text-center mt-2 color_fondo">
+                                        <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo">
                                             <p class="font-weight-bold espacio_int_valores">Respeto</p>
                                         </div>
-                                        <div class="col-2 text-center mt-2 color_fondo">
+                                        <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo">
                                             <p class="font-weight-bold espacio_int_valores">Honestidad</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 d-flex justify-content-center">
-                                        <div class="col-3 p-0 color_fondo">
+                                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                                        <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
                                             <div class="col-12 text-center">
                                                 <p class="font-weight-bold espacio_int_valores">Compromiso</p>
                                             </div>
                                         </div>
-                                        <div class="col-3 p-0 color_fondo">
+                                        <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
                                             <div class="col-12 text-center">
                                                 <p class="font-weight-bold espacio_int_valores">Comunicación</p>
                                             </div>
                                         </div>
-                                        <div class="col-3 p-0 color_fondo">
+                                        <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
                                             <div class="col-12 text-center">
                                                 <p class="font-weight-bold espacio_int_valores">Responsabilidad</p>
                                             </div>
                                         </div>
-                                        <div class="col-3 p-0 color_fondo">
+                                        <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
                                             <div class="col-12 text-center">
                                                 <p class="font-weight-bold espacio_int_valores">Trabajo en Equipo</p>
                                             </div>
@@ -106,21 +106,21 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section id="estadisticas" class="mt-5">
         <div class="col-12" id="contador">
             <div class="row text-center">
-                <div class="col-3">
+                <div class="col-12 col-md-3 col-lg-3">
                     <h2 class="font-weight-bold" id="counter-propertys"></h2>
                     <p>Total Inmuebles</p>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 col-lg-3">
                     <h2 class="font-weight-bold" id="counter-rent"></h2>
                     <p>Total Arriendo</p>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 col-lg-3">
                     <h2 class="font-weight-bold" id="counter-sale"></h2>
                     <p>Total Venta</p>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 col-lg-3">
                     <h2 class="font-weight-bold" id="counter-sale-rent"></h2>
-                    <p>Total Arriendo/Venta</p>
+                    <p class="cont_responsive">Total Arriendo/Venta</p>
                 </div>
             </div>
         </div>

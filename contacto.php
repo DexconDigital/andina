@@ -33,12 +33,12 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section class="propiedades mt-4 pt-0" id="contacto">
         <div class="container tamaño_cont">
             <div class="justify-content-center">
-                <div class="col-md-11 col-lg-12 col-10">
+                <div class="col-md-12 col-lg-12 col-12">
                     <h2 class="mb-3 ml-0 titulo_principal font-weight-bold titulo_importante">Contáctenos</h2>
                     <div style="position:relative;">
                         <div class="col-12 text-justify">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-12 col-lg-6">
                                     <form>
                                         <div class="form-group font-weight-bold">
                                             <label for="exampleInputEmail1 ">Nombre Completo</label>
@@ -67,10 +67,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                         </div>
                                     </form>
                                 </div>
-                                <div class="col-6">
-                                    <div class="p-4">
+                                <div class="col-12 col-md-12 col-lg-6">
+                                    <div class="info_conatcto">
                                         <div class="col-12 mb-5 container ">
-                                            <i class="fas fa-location-arrow icon"></i> <a id="link" href="https://www.google.com/maps/place/204+Oficina,+Cra.+83+%2332-64,+Medell%C3%ADn,+Antioquia/@6.2342548,-75.6083956,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429917f42915b:0x436ecd39c4f046b!8m2!3d6.2342495!4d-75.6062069" target="_blank"> Carrera 81 No 32 – 204 Oficina 322ª Nueva Villa del Aburra Medellín - Antioquia</a>
+                                            <i class="fas fa-location-arrow icon"></i> <span id="link" href="https://www.google.com/maps/place/204+Oficina,+Cra.+83+%2332-64,+Medell%C3%ADn,+Antioquia/@6.2342548,-75.6083956,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429917f42915b:0x436ecd39c4f046b!8m2!3d6.2342495!4d-75.6062069" target="_blank"> Carrera 81 No 32 – 204 Oficina 322ª Nueva Villa del Aburra Medellín - Antioquia</span>
                                         </div>
                                         <div class="col-12 mb-5 container">
                                             <i class="fa fa-mobile-alt icon"></i><a id="link" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"> 300 543 07 22</a>

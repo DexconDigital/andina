@@ -69,12 +69,12 @@ $inmobiliaria = 'Andina Inmobiliaria';
     </section>
 
     <!-- primer div precio ... -->
-    <section class="propiedades mt-4 pt-0">
+    <section class="propiedades mt-4 datos_inmueble">
         <div class="container tamaño_cont p-0">
 
-            <div class="col-md-11 col-lg-12 col-10 d-flex p-0 ">
+            <div class="col-12 col-md-11 col-lg-12 col-10 d-flex flex-wrap p-0 ">
                 <!-- div izquierdo -->
-                <div class="col-6  p-0">
+                <div class="col-12 col-md-12 col-lg-6  p-0">
                     <div class="row">
                         <div class="">
                             <h2 class="mb-3 pl-3 font-weight-bold mt-2 titulo_importante position-relative"><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h2>
@@ -88,7 +88,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                     <p class="codigo"> <i class="fas fa-map-marker-alt icon mr-2"></i><?php echo $r['ciudad'] . ' , ' . $r['barrio']  ?></p>
                 </div>
                 <!-- div derecho -->
-                <div class="col-6  text-right p-0">
+                <div class="col-12 col-md-12 col-lg-6  text-right p-0 div_primero">
                     <div class="col-12 text-right pr- d-flex flex-row-reverse bd-highlight">
                         <div class="row">
                             <div class="mr-4 mt-4">
@@ -132,8 +132,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <!-- div de asesor -->
     <section class="pt-0">
         <div class="container tamaño_cont p-0">
-            <div class="col-md-11 col-lg-12 col-10 d-flex p-0">
-                <div class="col-8 ">
+            <div class="col-12 col-md-12 col-lg-12 col-10 d-flex flex-wrap p-0">
+                <div class="col-12 col-md-12 col-lg-8 ">
                     <!-- main slider carousel items -->
                     <section class="mt-3" id="slide-detalle">
                         <?php
@@ -166,7 +166,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                         ?>
                     </section>
                 </div>
-                <div class="col-4  asesor_cont_mayor mt-3">
+                <div class="col-12 col-md-12 col-lg-4  asesor_cont_mayor mt-3">
                     <div class=" p-3 color_int_asesor">
                         <div class="col-12  d-flex justify-content-center">
                             <div class="col-8 mb-3">
@@ -210,10 +210,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
         </div>
     </section>
     <!-- propiedades similares y tabs -->
-    <section id="cont_tab">
+    <section id="cont_tab" class="responsbe_tabs">
         <div class="container tamaño_cont p-0">
-            <div class="col-md-11 col-lg-12 col-10 d-flex p-0">
-                <div class="col-8  p-0 tab_conte">
+            <div class="col-12 col-md-12 col-lg-12 d-flex flex-wrap p-0">
+                <div class="col-8 col-md-12 col-lg-8  p-0 tab_conte container">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link primer_texto active font-weight-bold " id="home-tab" data-toggle="tab" href="#descrip" role="tab" aria-controls="home" aria-selected="true">Descripción</a>
@@ -228,7 +228,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                             <a class="nav-link primer_texto font-weight-bold " id="contact-tab" data-toggle="tab" href="#alre" role="tab" aria-controls="contact" aria-selected="false">Caracteristicas Alrededores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link primer_texto font-weight-bold " id="contact-tab" data-toggle="tab" href="#video" role="tab" aria-controls="contact" aria-selected="false">Video</a>
+                            <a class="nav-link primer_texto font-weight-bold " id="contact-tab" data-toggle="tab" href="#video" role="tab" aria-controls="contact" aria-selected="false">&nbsp&nbspVideo&nbsp&nbsp</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
@@ -338,7 +338,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                         </div>
                     </div>
                 </div>
-                <div class="col-4 asesor_cont_mayor mt-3">
+                <div class="col-12 col-md-12 col-lg-4 col asesor_cont_mayor asesor_responsive mt-3">
                     <div class=" p-3 color_int_asesor">
                         <div class="col-12  d-flex justify-content-center">
                             <div class="col-12 text-center">
