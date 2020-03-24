@@ -51,9 +51,9 @@
      <div class="col-12 d-flex p-0">
          <div class="col-7">
              <a class="nav-link active contedor_logo ml-4 p-0" href="index.php"><img class="img" src="images/logo.png" alt=""></a>
-             <!-- <div class="div_movil2">
-                 <a class="nav-link active contedor_logo ml-4 p-0 border text-center" href="index.php"><img src="images/logo blanco.png" alt=""></a>
-             </div> -->
+             <div class="div_movil2">
+                 <a class="nav-link active logo_blanco_movil p-0   text-center" href="index.php"><img class="logo_blanco_responsive" src="images/logo_blanco.png" alt=""></a>
+             </div>
          </div>
          <div class="col-2 redes align-items-center">
 
@@ -99,10 +99,10 @@
  </div>
  <!-- segundo nav -->
  <div id="nav" class="fondo_buscador1 menu">
-     <!-- <div class="div_movil" style="display:none;">
-         <a class="nav-link active contedor_logo ml-4 p-0 border text-center" href="index.php"><img src="images/logo blanco.png" alt=""></a>
-     </div> -->
-     <nav class="navbar navbar-expand-lg ml-4">
+     <div class="div_movil" style="display:none;">
+         <a class="nav-link active ml-4 p-0  text-center" href="index.php"><img class="logo_blanco_responsive" src="images/logo_blanco.png" alt=""></a>
+     </div>
+     <nav class="navbar navbar-expand-lg espacio_nav2">
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"><i class="fas fa-align-justify mt-1"></i></span>
          </button>

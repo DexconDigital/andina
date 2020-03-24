@@ -21,12 +21,14 @@ $inmobiliaria = 'Andina Inmobiliaria';
 
     <!-- banner de entrada -->
     <section id="banner">
-        <div class="col-12 p-0">
-            <div class="col-12 cont_texto_banner text-center position-absolute">
-                <h1 class="font-weight-bold rutas txt_principal" style="color: white;"> NOSOTROS </h1>
+        <div class="h-100 col-12 p-0">
+            <div class="h-100 col-12 d-flex flex-column align-items-center justify-content-center cont_texto_banner text-center position-absolute">
+                <h1 class="font-weight-bold rutas txt_principal"> NOSOTROS </h1>
                 <h5 class="justify-content-center row rutas"> Inicio / Nosotros </h5>
             </div>
-            <img src="images/banner_quienes_somos.jpg" alt="">
+            <div class="h-100">
+                <img class="h-100" src="images/banner_quienes_somos.jpg" alt="">
+            </div>
         </div>
     </section>
     <!-- texto quienes somos -->

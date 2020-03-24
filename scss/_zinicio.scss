@@ -365,12 +365,31 @@ color: $azul;
    content: "";
    background: #fff;
    position: absolute;
-   width:80%;
    height: 2px;
-   bottom: 0;
+   bottom: 3px;
    left: 0;
    right: 0;
    margin: auto;
+   @media (min-width:360px) {
+      margin-left: 0;
+      width:17%;
+  }
+  @media (min-width:425px) {
+   margin-left: 0;
+   width:17%;
+  }
+  @media (min-width:730px) {
+   margin-left: 0;
+   width:8%;
+  }
+  @media (min-width:1024px) {
+   margin-left: auto;
+   width:80%;
+  }
+  @media (min-width:1440px) {
+   margin-left: auto;
+   width:80%;
+  }
 }
 
 
@@ -413,8 +432,12 @@ color: $azul;
 
 }
 
+.page-item.active .page-link{
+   background-color: #0000A0 !important;
+  border-color: #0000A0 !important;
+}
 
-@media (max-width:360px) {
+@media (min-width:360px) {
    .contedor_logo{
       img{
          display: none;
@@ -422,6 +445,19 @@ color: $azul;
          width: 38%;
          }
        
+      }
+      .div_movil2{
+         width: 282px;
+         position: absolute;
+         top: 100%;
+         left: 36%;
+         z-index: 100;
+      }
+      .div_movil{
+         width: 302px;
+         position: absolute;
+         left: 15%;
+         z-index: 100;
       }
       .espacio_responsive{
          margin-bottom: 3.5rem ;
@@ -458,10 +494,27 @@ color: $azul;
          padding-top: 7% !important;
       }
       .datos_inmueble{
-         padding: 3%;
+         padding: 6%;
+      }
+      .asesor_cont_mayor2{
+         padding: 0px 15px;
+      }
+      #cont_tab .tab_conte .nav-tabs li{
+         font-size: 7px !important;
+       line-height: 10px !important;
+      }
+      .logo_blanco_movil{
+
+      }
+      .espacio_nav2{
+         margin-left: 0.5rem;
+      }
+      .logo_blanco_responsive{
+         width: 62% ;
+         margin-left: -6%;
       }
 }
-@media (min-width:425px) {
+@media (min-width:420px) {
    
    .redes_dos{
       position: absolute;
@@ -481,10 +534,16 @@ color: $azul;
       padding: 10px;
    }
    .div_movil2{
-      width: 595px;
+      width: 332px;
       position: absolute;
       top: 100%;
-      left: 17%;
+      left: 32%;
+      z-index: 100;
+   }
+   .div_movil{
+      width: 353px;
+      position: absolute;
+      left: 57px;
       z-index: 100;
    }
 
@@ -524,7 +583,24 @@ color: $azul;
       padding: 3%;
    }
    .datos_inmueble{
-      padding: 3%;
+      padding: 6%;
+   }
+   .asesor_cont_mayor2{
+      padding: 0px 15px;
+   }
+   #cont_tab .tab_conte .nav-tabs li{
+      font-size: 7px !important;
+    line-height: 10px !important;
+   }
+   .logo_blanco_movil{
+         
+   }
+   .espacio_nav2{
+      margin-left: 0.5rem;
+   }
+   .logo_blanco_responsive{
+      width: 57% ;
+      margin-left: -6%;
    }
 }
 
@@ -533,13 +609,13 @@ color: $azul;
       width: 595px;
       position: absolute;
       top: 100%;
-      left: 17%;
+      left: 25%;
       z-index: 100;
    }
    .div_movil{
-      width: 595px;
+      width: 598px;
       position: absolute;
-      left: 10%;
+      left: 99px;
       z-index: 100;
    }
    .redes{
@@ -599,6 +675,22 @@ color: $azul;
       #cont_tab .tab_conte .nav-tabs li{
          font-size: 9px !important;
          padding-left: 5px;
+      }
+      .asesor_cont_mayor2{
+         padding: 0px 0px;
+      }
+      #cont_tab .tab_conte .nav-tabs li{
+         font-size:9px !important;
+         line-height: 12px !important;
+      }
+      .logo_blanco_movil{
+         
+      }
+      .espacio_nav2{
+         margin-left: 0.5rem;
+      }
+      .logo_blanco_responsive{
+         width: 31% ;
       }
 }
 @media (min-width:1024px) {
@@ -662,6 +754,19 @@ color: $azul;
       #cont_tab .tab_conte .nav-tabs li{
          font-size: 8px;
          padding-left: inherit;
+      }
+      .asesor_cont_mayor2{
+         padding: 0px 23px;
+      }
+      #cont_tab .tab_conte .nav-tabs li{
+         font-size:12px !important;
+         line-height: 12px !important;
+      }
+      .logo_blanco_movil{
+         
+      }
+      .espacio_nav2{
+         margin-left: 1.5rem;
       }
    }
 
@@ -728,6 +833,19 @@ color: $azul;
          #cont_tab .tab_conte .nav-tabs li{
             font-size: 14px;
             padding-left: inherit;
+         }
+         .asesor_cont_mayor2{
+            padding: 0px 23px;
+         }
+         #cont_tab .tab_conte .nav-tabs li{
+            font-size: 14px !important;
+            line-height: 12px !important;
+         }
+         .logo_blanco_movil{
+         
+         }
+         .espacio_nav2{
+            margin-left: 1.5rem;
          }
 }
 

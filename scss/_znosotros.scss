@@ -1,4 +1,9 @@
 #banner{
+
+    height: 30vh;
+
+
+
     img{
         width: 100%;
         filter: brightness(0.5);
@@ -7,7 +12,7 @@
         color: white;
     }
     .cont_texto_banner{
-        margin-top: 6%;
+        // margin-top: 6%;
         z-index: 100;
     }
     .txt_principal{

@@ -59,12 +59,14 @@ $inmobiliaria = 'Andina Inmobiliaria';
 
     <!-- banner de entrada -->
     <section id="banner">
-        <div class="col-12 p-0">
-            <div class="col-12 cont_texto_banner text-center position-absolute">
+        <div class="h-100 col-12 p-0">
+            <div class="h-100 col-12 d-flex flex-column align-items-center justify-content-center cont_texto_banner text-center position-absolute">
                 <h1 class="font-weight-bold rutas txt_principal"> Detalle de Inmueble </h1>
                 <h5 class="justify-content-center row rutas"> Inicio / Inmuebles / Detalle de Inmueble </h5>
             </div>
-            <img src="images/banner_detalle_inmueble.jpg" alt="">
+            <div class="h-100">
+                <img class="h-100" src="images/banner_detalle_inmueble.jpg" alt="">
+            </div>
         </div>
     </section>
 
@@ -213,7 +215,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section id="cont_tab" class="responsbe_tabs">
         <div class="container tamaño_cont p-0">
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-wrap p-0">
-                <div class="col-8 col-md-12 col-lg-8  p-0 tab_conte container">
+                <div class="col-11 col-md-12 col-lg-8  p-0 tab_conte container">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link primer_texto active font-weight-bold " id="home-tab" data-toggle="tab" href="#descrip" role="tab" aria-controls="home" aria-selected="true">Descripción</a>
@@ -338,7 +340,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 col asesor_cont_mayor asesor_responsive mt-3">
+                <div class="col-12 col-md-12 col-lg-4 col asesor_cont_mayor2 asesor_responsive mt-3">
                     <div class=" p-3 color_int_asesor">
                         <div class="col-12  d-flex justify-content-center">
                             <div class="col-12 text-center">

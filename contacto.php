@@ -21,12 +21,14 @@ $inmobiliaria = 'Andina Inmobiliaria';
 
     <!-- banner de entrada -->
     <section id="banner">
-        <div class="col-12 p-0">
-            <div class="col-12 cont_texto_banner text-center position-absolute">
+        <div class="h-100 col-12 p-0">
+            <div class="h-100 col-12 d-flex flex-column align-items-center justify-content-center cont_texto_banner text-center position-absolute">
                 <h1 class="font-weight-bold rutas txt_principal"> CONTÁCTENOS </h1>
                 <h5 class="justify-content-center row rutas"> Inicio / Contáctenos </h5>
             </div>
-            <img src="images/banner_contacto.jpg" alt="">
+            <div class="h-100">
+                <img class="h-100" src="images/banner_contacto.jpg" alt="">
+            </div>
         </div>
     </section>
 
@@ -110,8 +112,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
     </section>
     <section id="mapa">
         <div class="col-12 p-0 mt-3 mapa_ubicacion">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1367364399744!2d-75.60403398573416!3d6.245705328064305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ffd9a74193%3A0xbf986bb290d8ccc!2sFisiocinetics!5e0!3m2!1ses!2sco!4v1582306194112!5m2!1ses!2sco" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1367364399744!2d-75.60403398573416!3d6.245705328064305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ffd9a74193%3A0xbf986bb290d8ccc!2sFisiocinetics!5e0!3m2!1ses!2sco!4v1582306194112!5m2!1ses!2sco" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
         </div>
     </section>
 

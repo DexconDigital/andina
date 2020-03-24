@@ -8477,12 +8477,31 @@ p, b {
   content: "";
   background: #fff;
   position: absolute;
-  width: 80%;
   height: 2px;
-  bottom: 0;
+  bottom: 3px;
   left: 0;
   right: 0;
   margin: auto; }
+  @media (min-width: 360px) {
+    .nav-item.active .nav-link:before {
+      margin-left: 0;
+      width: 17%; } }
+  @media (min-width: 425px) {
+    .nav-item.active .nav-link:before {
+      margin-left: 0;
+      width: 17%; } }
+  @media (min-width: 730px) {
+    .nav-item.active .nav-link:before {
+      margin-left: 0;
+      width: 8%; } }
+  @media (min-width: 1024px) {
+    .nav-item.active .nav-link:before {
+      margin-left: auto;
+      width: 80%; } }
+  @media (min-width: 1440px) {
+    .nav-item.active .nav-link:before {
+      margin-left: auto;
+      width: 80%; } }
 
 #aliados #contenedor_aliados .cont_img {
   overflow: hidden; }
@@ -8514,11 +8533,26 @@ p, b {
   .navbar-toggler:focus {
     border: 1px solid #0000A0 !important; }
 
-@media (max-width: 360px) {
+.page-item.active .page-link {
+  background-color: #0000A0 !important;
+  border-color: #0000A0 !important; }
+
+@media (min-width: 360px) {
   .contedor_logo img {
     display: none;
     height: 30%;
     width: 38%; }
+  .div_movil2 {
+    width: 282px;
+    position: absolute;
+    top: 100%;
+    left: 36%;
+    z-index: 100; }
+  .div_movil {
+    width: 302px;
+    position: absolute;
+    left: 15%;
+    z-index: 100; }
   .espacio_responsive {
     margin-bottom: 3.5rem; }
   .redes {
@@ -8543,9 +8577,19 @@ p, b {
   .espacio_top {
     padding-top: 7% !important; }
   .datos_inmueble {
-    padding: 3%; } }
+    padding: 6%; }
+  .asesor_cont_mayor2 {
+    padding: 0px 15px; }
+  #cont_tab .tab_conte .nav-tabs li {
+    font-size: 7px !important;
+    line-height: 10px !important; }
+  .espacio_nav2 {
+    margin-left: 0.5rem; }
+  .logo_blanco_responsive {
+    width: 62%;
+    margin-left: -6%; } }
 
-@media (min-width: 425px) {
+@media (min-width: 420px) {
   .redes_dos {
     position: absolute;
     top: -2%;
@@ -8559,10 +8603,15 @@ p, b {
     display: inherit !important;
     padding: 10px; }
   .div_movil2 {
-    width: 595px;
+    width: 332px;
     position: absolute;
     top: 100%;
-    left: 17%;
+    left: 32%;
+    z-index: 100; }
+  .div_movil {
+    width: 353px;
+    position: absolute;
+    left: 57px;
     z-index: 100; }
   .contedor_logo img {
     display: none;
@@ -8587,19 +8636,29 @@ p, b {
   .responsbe_tabs {
     padding: 3%; }
   .datos_inmueble {
-    padding: 3%; } }
+    padding: 6%; }
+  .asesor_cont_mayor2 {
+    padding: 0px 15px; }
+  #cont_tab .tab_conte .nav-tabs li {
+    font-size: 7px !important;
+    line-height: 10px !important; }
+  .espacio_nav2 {
+    margin-left: 0.5rem; }
+  .logo_blanco_responsive {
+    width: 57%;
+    margin-left: -6%; } }
 
 @media (min-width: 730px) {
   .div_movil2 {
     width: 595px;
     position: absolute;
     top: 100%;
-    left: 17%;
+    left: 25%;
     z-index: 100; }
   .div_movil {
-    width: 595px;
+    width: 598px;
     position: absolute;
-    left: 10%;
+    left: 99px;
     z-index: 100; }
   .redes {
     display: none !important; }
@@ -8638,7 +8697,16 @@ p, b {
     left: 10%; }
   #cont_tab .tab_conte .nav-tabs li {
     font-size: 9px !important;
-    padding-left: 5px; } }
+    padding-left: 5px; }
+  .asesor_cont_mayor2 {
+    padding: 0px 0px; }
+  #cont_tab .tab_conte .nav-tabs li {
+    font-size: 9px !important;
+    line-height: 12px !important; }
+  .espacio_nav2 {
+    margin-left: 0.5rem; }
+  .logo_blanco_responsive {
+    width: 31%; } }
 
 @media (min-width: 1024px) {
   .redes_dos {
@@ -8680,7 +8748,14 @@ p, b {
     left: inherit; }
   #cont_tab .tab_conte .nav-tabs li {
     font-size: 8px;
-    padding-left: inherit; } }
+    padding-left: inherit; }
+  .asesor_cont_mayor2 {
+    padding: 0px 23px; }
+  #cont_tab .tab_conte .nav-tabs li {
+    font-size: 12px !important;
+    line-height: 12px !important; }
+  .espacio_nav2 {
+    margin-left: 1.5rem; } }
 
 @media (min-width: 1440px) {
   .redes_dos {
@@ -8721,7 +8796,14 @@ p, b {
     left: inherit; }
   #cont_tab .tab_conte .nav-tabs li {
     font-size: 14px;
-    padding-left: inherit; } }
+    padding-left: inherit; }
+  .asesor_cont_mayor2 {
+    padding: 0px 23px; }
+  #cont_tab .tab_conte .nav-tabs li {
+    font-size: 14px !important;
+    line-height: 12px !important; }
+  .espacio_nav2 {
+    margin-left: 1.5rem; } }
 
 .owl-carousel .owl-nav {
   overflow: hidden;
@@ -8846,25 +8928,22 @@ span.img-text {
   display: block;
   text-transform: capitalize; }
 
-#banner img {
-  width: 100%;
-  -webkit-filter: brightness(0.5);
-  filter: brightness(0.5); }
-
-#banner .rutas {
-  color: white; }
-
-#banner .cont_texto_banner {
-  margin-top: 6%;
-  z-index: 100; }
-
-#banner .txt_principal {
-  font-size: 43px;
-  line-height: 43px;
-  font-weight: 800; }
-
-#banner .titulo_principal {
-  font-weight: 800; }
+#banner {
+  height: 30vh; }
+  #banner img {
+    width: 100%;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5); }
+  #banner .rutas {
+    color: white; }
+  #banner .cont_texto_banner {
+    z-index: 100; }
+  #banner .txt_principal {
+    font-size: 43px;
+    line-height: 43px;
+    font-weight: 800; }
+  #banner .titulo_principal {
+    font-weight: 800; }
 
 #estadisticas {
   background-image: url("../images/contador.jpg");
@@ -8970,23 +9049,30 @@ span.img-text {
 #color_fondo {
   background-color: #f5f5f5; }
 
-.asesor_cont_mayor {
-  padding: 0px 23px; }
-  @media (min-width: 360px) {
-    .asesor_cont_mayor {
-      margin-bottom: 18%; } }
-  @media (min-width: 425px) {
-    .asesor_cont_mayor {
-      margin-bottom: 18%; } }
-  @media (min-width: 760px) {
-    .asesor_cont_mayor {
-      margin-bottom: 18%; } }
-  @media (min-width: 1024px) {
-    .asesor_cont_mayor {
-      margin-bottom: 0%; } }
-  @media (min-width: 1440px) {
-    .asesor_cont_mayor {
-      margin-bottom: 0%; } }
+@media (min-width: 360px) {
+  .asesor_cont_mayor {
+    margin-bottom: 18%;
+    padding: 0px 17px; } }
+
+@media (min-width: 425px) {
+  .asesor_cont_mayor {
+    margin-bottom: 18%;
+    padding: 0px 17px; } }
+
+@media (min-width: 760px) {
+  .asesor_cont_mayor {
+    margin-bottom: 18%;
+    padding: 0px 23px; } }
+
+@media (min-width: 1024px) {
+  .asesor_cont_mayor {
+    margin-bottom: 0%;
+    padding: 0px 23px; } }
+
+@media (min-width: 1440px) {
+  .asesor_cont_mayor {
+    margin-bottom: 0%;
+    padding: 0px 23px; } }
 
 .color_int_asesor {
   background-color: white; }
@@ -9000,10 +9086,10 @@ span.img-text {
   list-style: none; }
   @media (min-width: 360px) {
     .datos_asesor {
-      margin-left: 13%; } }
+      margin-left: 0%; } }
   @media (min-width: 425px) {
     .datos_asesor {
-      margin-left: 13%; } }
+      margin-left: 0%; } }
   @media (min-width: 760px) {
     .datos_asesor {
       margin-left: 13%; } }
