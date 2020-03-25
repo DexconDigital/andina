@@ -491,7 +491,8 @@ color: $azul;
          margin-top: 7%;
       }
       .espacio_top{
-         padding-top: 7% !important;
+         padding-top: 3% !important;
+         margin-left: -2%;
       }
       .datos_inmueble{
          padding: 6%;
@@ -500,7 +501,7 @@ color: $azul;
          padding: 0px 15px;
       }
       #cont_tab .tab_conte .nav-tabs li{
-         font-size: 7px !important;
+         font-size: 11px !important;
        line-height: 10px !important;
       }
       .logo_blanco_movil{
@@ -512,6 +513,19 @@ color: $azul;
       .logo_blanco_responsive{
          width: 62% ;
          margin-left: -6%;
+      }
+      .redes_detalle{
+         margin-left: 4%;  
+      }
+      .alineacion{
+         padding: 0px;
+      }
+      .telefono_contact{
+         padding: 0px;
+         margin-left: 7%;
+      }
+      .tamano_libertador{
+         height: 40%;
       }
 }
 @media (min-width:420px) {
@@ -578,6 +592,7 @@ color: $azul;
    }
    .espacio_top{
       padding-top: 7% !important;
+      margin-left: -7%;
    }
    .responsbe_tabs{
       padding: 3%;
@@ -589,7 +604,7 @@ color: $azul;
       padding: 0px 15px;
    }
    #cont_tab .tab_conte .nav-tabs li{
-      font-size: 7px !important;
+      font-size: 11px !important;
     line-height: 10px !important;
    }
    .logo_blanco_movil{
@@ -601,6 +616,19 @@ color: $azul;
    .logo_blanco_responsive{
       width: 57% ;
       margin-left: -6%;
+   }
+   .redes_detalle{
+      margin-left: 4%;  
+   }
+   .alineacion{
+      padding: inherit;
+   }
+   .telefono_contact{
+      padding: inherit;
+      margin-left: inherit;
+   }
+   .tamano_libertador{
+      height: 40%;
    }
 }
 
@@ -692,6 +720,12 @@ color: $azul;
       .logo_blanco_responsive{
          width: 31% ;
       }
+      .redes_detalle{
+         margin-left: 0%;  
+      }
+      .tamano_libertador{
+         height: 40%;
+      }
 }
 @media (min-width:1024px) {
    .redes_dos{
@@ -767,6 +801,12 @@ color: $azul;
       }
       .espacio_nav2{
          margin-left: 1.5rem;
+      }
+      .redes_detalle{
+         margin-left: 0%;  
+      }
+      .tamano_libertador{
+         height: 40%;
       }
    }
 
@@ -846,6 +886,12 @@ color: $azul;
          }
          .espacio_nav2{
             margin-left: 1.5rem;
+         }
+         .redes_detalle{
+            margin-left: 0%;  
+         }
+         .tamano_libertador{
+            height: 40%;
          }
 }
 

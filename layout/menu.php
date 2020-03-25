@@ -49,7 +49,7 @@
  <!-- primer_nav -->
  <div class="fondo_buscador">
      <div class="col-12 d-flex p-0">
-         <div class="col-7">
+         <div class="col-6 col-md-7 col-lg-7  justify-content-center">
              <a class="nav-link active contedor_logo ml-4 p-0" href="index.php"><img class="img" src="images/logo.png" alt=""></a>
              <div class="div_movil2">
                  <a class="nav-link active logo_blanco_movil p-0   text-center" href="index.php"><img class="logo_blanco_responsive" src="images/logo_blanco.png" alt=""></a>
@@ -90,7 +90,7 @@
                  <h5 class="color_llamanos">Llámanos: <a href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?></a></h5>
              </div>
          </div>
-         <div class="col-5 fondo_div d-flex align-items-center telefono2">
+         <div class="col-6 col-md-5 col-lg-5 fondo_div d-flex align-items-center telefono2">
              <div class="align-items-center  col-12 text-center p-0">
                  <h5 class="color_llamanos">Llámanos: <a href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?></a></h5>
              </div>

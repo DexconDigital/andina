@@ -3,7 +3,7 @@
 <!-- primer div -->
 <div class="container tamaño_cont">
     <div class="justify-content-center">
-        <div class="col-md-11 col-lg-12 col-10">
+        <div class="col-md-12 col-lg-12 col-12">
             <div class="col-12 cont-footer">
                 <div class="row">
                     <!-- datos contacto -->

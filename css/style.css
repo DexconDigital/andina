@@ -8575,19 +8575,29 @@ p, b {
     padding: inherit;
     margin-top: 7%; }
   .espacio_top {
-    padding-top: 7% !important; }
+    padding-top: 3% !important;
+    margin-left: -2%; }
   .datos_inmueble {
     padding: 6%; }
   .asesor_cont_mayor2 {
     padding: 0px 15px; }
   #cont_tab .tab_conte .nav-tabs li {
-    font-size: 7px !important;
+    font-size: 11px !important;
     line-height: 10px !important; }
   .espacio_nav2 {
     margin-left: 0.5rem; }
   .logo_blanco_responsive {
     width: 62%;
-    margin-left: -6%; } }
+    margin-left: -6%; }
+  .redes_detalle {
+    margin-left: 4%; }
+  .alineacion {
+    padding: 0px; }
+  .telefono_contact {
+    padding: 0px;
+    margin-left: 7%; }
+  .tamano_libertador {
+    height: 40%; } }
 
 @media (min-width: 420px) {
   .redes_dos {
@@ -8632,7 +8642,8 @@ p, b {
     padding: inherit;
     margin-top: 7%; }
   .espacio_top {
-    padding-top: 7% !important; }
+    padding-top: 7% !important;
+    margin-left: -7%; }
   .responsbe_tabs {
     padding: 3%; }
   .datos_inmueble {
@@ -8640,13 +8651,22 @@ p, b {
   .asesor_cont_mayor2 {
     padding: 0px 15px; }
   #cont_tab .tab_conte .nav-tabs li {
-    font-size: 7px !important;
+    font-size: 11px !important;
     line-height: 10px !important; }
   .espacio_nav2 {
     margin-left: 0.5rem; }
   .logo_blanco_responsive {
     width: 57%;
-    margin-left: -6%; } }
+    margin-left: -6%; }
+  .redes_detalle {
+    margin-left: 4%; }
+  .alineacion {
+    padding: inherit; }
+  .telefono_contact {
+    padding: inherit;
+    margin-left: inherit; }
+  .tamano_libertador {
+    height: 40%; } }
 
 @media (min-width: 730px) {
   .div_movil2 {
@@ -8706,7 +8726,11 @@ p, b {
   .espacio_nav2 {
     margin-left: 0.5rem; }
   .logo_blanco_responsive {
-    width: 31%; } }
+    width: 31%; }
+  .redes_detalle {
+    margin-left: 0%; }
+  .tamano_libertador {
+    height: 40%; } }
 
 @media (min-width: 1024px) {
   .redes_dos {
@@ -8755,7 +8779,11 @@ p, b {
     font-size: 12px !important;
     line-height: 12px !important; }
   .espacio_nav2 {
-    margin-left: 1.5rem; } }
+    margin-left: 1.5rem; }
+  .redes_detalle {
+    margin-left: 0%; }
+  .tamano_libertador {
+    height: 40%; } }
 
 @media (min-width: 1440px) {
   .redes_dos {
@@ -8803,7 +8831,11 @@ p, b {
     font-size: 14px !important;
     line-height: 12px !important; }
   .espacio_nav2 {
-    margin-left: 1.5rem; } }
+    margin-left: 1.5rem; }
+  .redes_detalle {
+    margin-left: 0%; }
+  .tamano_libertador {
+    height: 40%; } }
 
 .owl-carousel .owl-nav {
   overflow: hidden;
@@ -8951,7 +8983,7 @@ span.img-text {
   color: white; }
   @media (min-width: 360px) {
     #estadisticas {
-      margin-bottom: -6%; } }
+      margin-bottom: -7%; } }
   @media (min-width: 425px) {
     #estadisticas {
       margin-bottom: -6%; } }
@@ -9036,6 +9068,31 @@ span.img-text {
   text-transform: uppercase;
   margin-left: 2%;
   margin-top: 2%; }
+  @media (min-width: 360px) {
+    .codigo1 {
+      position: absolute;
+      top: -46px;
+      margin-left: 5%; } }
+  @media (min-width: 425px) {
+    .codigo1 {
+      position: absolute;
+      top: -46px;
+      margin-left: 5%; } }
+  @media (min-width: 730px) {
+    .codigo1 {
+      position: absolute;
+      top: 71px;
+      margin-left: 2%; } }
+  @media (min-width: 1024px) {
+    .codigo1 {
+      position: inherit;
+      top: 71px;
+      margin-left: 2%; } }
+  @media (min-width: 1440px) {
+    .codigo1 {
+      position: inherit;
+      top: 71px;
+      margin-left: 2%; } }
 
 .label-status {
   background-color: #0000A0;
@@ -9086,7 +9143,7 @@ span.img-text {
   list-style: none; }
   @media (min-width: 360px) {
     .datos_asesor {
-      margin-left: 0%; } }
+      margin-left: -16%; } }
   @media (min-width: 425px) {
     .datos_asesor {
       margin-left: 0%; } }

@@ -83,7 +83,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                         <div class="col-12 mb-5 container">
                                             <i class="fab fa-whatsapp icon"></i><a id="link" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"> 300 543 07 22</a>
                                         </div>
-                                        <div class="col-12 container">
+                                        <div class="col-12 container telefono_contact">
                                             <i class="fas fa-envelope icon"></i><a id="link" href="mailto:<?php echo $datos_contacto['correo']['correo'] ?>"> info@andinainmobiliaria.com</a>
                                         </div>
                                     </div>

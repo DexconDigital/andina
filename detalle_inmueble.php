@@ -74,7 +74,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section class="propiedades mt-4 datos_inmueble">
         <div class="container tamaño_cont p-0">
 
-            <div class="col-12 col-md-11 col-lg-12 col-10 d-flex flex-wrap p-0 ">
+            <div class="col-12 col-md-11 col-lg-12 col-10 d-flex flex-wrap p-0">
                 <!-- div izquierdo -->
                 <div class="col-12 col-md-12 col-lg-6  p-0">
                     <div class="row">
@@ -91,7 +91,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                 </div>
                 <!-- div derecho -->
                 <div class="col-12 col-md-12 col-lg-6  text-right p-0 div_primero">
-                    <div class="col-12 text-right pr- d-flex flex-row-reverse bd-highlight">
+                    <div class="col-13 text-right redes_detalle d-flex flex-row-reverse bd-highlight">
                         <div class="row">
                             <div class="mr-4 mt-4">
                                 <ul class="lista_redes d-flex justify-content-end p-0">
@@ -182,7 +182,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 <li class="mb-2"> <a class="accion_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><i class="fas fa-envelope mr-2 icono_Asesor"></i> <?php echo $asesor['correo']; ?></a></li>
                             </ul>
                         </div>
-                        <div class="col-12 ">
+                        <div class="col-12 alineacion">
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
                                 <input type="text" class="form-control p-4" id="" placeholder="Nombre y Apellido" required>
                             </div>

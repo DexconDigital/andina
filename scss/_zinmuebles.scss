@@ -30,6 +30,31 @@
     text-transform: uppercase;
     margin-left: 2%;
     margin-top: 2%;
+    @media (min-width:360px) {
+        position: absolute; 
+        top: -46px;
+        margin-left:5%;
+    }
+    @media (min-width:425px) {
+        position: absolute;
+        top: -46px;
+        margin-left:5%;
+    }
+    @media (min-width:730px) {
+        position: absolute;
+        top: 71px;
+        margin-left:2%;
+    }
+    @media (min-width:1024px) {
+        position: inherit;
+        top: 71px;
+        margin-left:2%;
+    }
+    @media (min-width:1440px) {
+        position: inherit;
+        top: 71px;
+        margin-left:2%;
+    }
 }
 .label-status{
     background-color: $azul;
@@ -76,7 +101,7 @@
 .datos_asesor{
     list-style: none;
     @media (min-width:360px) {
-        margin-left: 0%;
+        margin-left: -16%;
     }
     @media (min-width:425px) {
         margin-left: 0%;

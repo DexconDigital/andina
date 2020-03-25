@@ -63,18 +63,18 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 <div class="col-12 mt-3 p-0 mt-5">
                                     <h5 class="text-center titulo_principal font-weight-bold titulo_importante_quienes">Valores Corporativos</h5>
 
-                                    <div class="col-12 d-flex justify-content-center">
+                                    <div class="col-12 d-flex justify-content-center p-0">
                                         <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo">
                                             <p class="font-weight-bold espacio_int_valores"> Ética</p>
                                         </div>
                                         <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo">
                                             <p class="font-weight-bold espacio_int_valores">Respeto</p>
                                         </div>
-                                        <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo">
+                                        <div class="col-4 col-md-2 col-lg-2 text-center mt-2 color_fondo p-0">
                                             <p class="font-weight-bold espacio_int_valores">Honestidad</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                                    <div class="col-12 d-flex flex-wrap justify-content-center p-0">
                                         <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
                                             <div class="col-12 text-center">
                                                 <p class="font-weight-bold espacio_int_valores">Compromiso</p>
@@ -85,13 +85,13 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                                 <p class="font-weight-bold espacio_int_valores">Comunicación</p>
                                             </div>
                                         </div>
-                                        <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
+                                        <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo p-0">
                                             <div class="col-12 text-center">
                                                 <p class="font-weight-bold espacio_int_valores">Responsabilidad</p>
                                             </div>
                                         </div>
                                         <div class="col-6 col-md-3 col-lg-3 p-0 color_fondo">
-                                            <div class="col-12 text-center">
+                                            <div class="col-12 text-center p-0">
                                                 <p class="font-weight-bold espacio_int_valores">Trabajo en Equipo</p>
                                             </div>
                                         </div>

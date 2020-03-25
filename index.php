@@ -153,7 +153,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
     <section class="propiedades mt-4 pt-0" id="aliados">
         <div class="container tamaño_cont">
             <div class="justify-content-center" id="contenedor_aliados">
-                <div class="col-md-11 col-lg-12 col-12">
+                <div class="col-md-11 col-lg-12 col-12  ">
                     <h2 class="mb-3 ml-0 font-weight-bold titulo_importante">Nuestros Aliados</h2>
                     <div style="position:relative;">
                         <div class="col-12 mt-5 cont_img">
@@ -162,7 +162,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                     <a href=" " target="_blank"><img style="height: 40%; object-fit: contain;" src="images/ccm.png" alt=""></a>
                                 </div>
                                 <div class="item animacion_logo" style="height: 180px;">
-                                    <a href="" target="_blank"><img style="height: 40%; object-fit: contain;" src="images/libertador.png" alt=""></a>
+                                    <a href="" target="_blank"><img class="tamano_libertador" style="object-fit: contain;" src="images/libertador.png" alt=""></a>
                                 </div>
                                 <div class="item animacion_logo" style="height: 180px;">
                                     <a href="" target="_blank"><img style="height: 40%; object-fit: contain;" src="images/simi.png" alt=""></a>
