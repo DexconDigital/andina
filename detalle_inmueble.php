@@ -108,7 +108,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 </ul>
                             </div>
                             <div class="btn-2">
-                                <a href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=984-<?php echo $co ?>" style="font-size: 13px;"><span>Imprimir Ficha</span></a>
+                                <a href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=984-<?php echo $co ?>" style="font-size: 13px;"target="_blank"><span>Imprimir Ficha</span></a>
                             </div>
                         </div>
 
@@ -183,17 +183,18 @@ $inmobiliaria = 'Andina Inmobiliaria';
                             </ul>
                         </div>
                         <div class="col-12 alineacion">
+						<form action="email/Correodetalleinmueble.php" method="POST">
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
-                                <input type="text" class="form-control p-4" id="" placeholder="Nombre y Apellido" required>
+                                <input type="text" class="form-control p-4" id="" name="nombre" placeholder="Nombre y Apellido" required>
                             </div>
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
-                                <input type="email" class="form-control p-4" id="" placeholder="Correo electrónico" required>
+                                <input type="email" class="form-control p-4" id="" name="correo" placeholder="Correo electrónico" required>
                             </div>
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
-                                <input type="number" class="form-control p-4" id="" placeholder="Teléfono ó Celular" required>
+                                <input type="number" class="form-control p-4" id="" name="telefono" placeholder="Teléfono ó Celular" required>
                             </div>
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
-                                <textarea cols="15" rows="5" name="message" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
+                                <textarea cols="15" rows="5" name="mensaje" class="textarea form-control tamaño_tex_area rounded-0" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="custom-control custom-checkbox mb-4">
@@ -201,10 +202,19 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                     <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                 </div>
                             </div>
+							<select name="correo_asesor" class="invisible display:none">
+                                    option value=" <?php echo $asesor['ntercero']; ?>"> <?php echo $asesor['ntercero']; ?></option>
+                                </select>
+                                <select name="nom_asesor" class="invisible display:none">
+                                    <option value=" <?php echo $asesor['correo']; ?>"> <?php echo $asesor['correo']; ?></option>
+                                </select>
+                                <select name="codigo" class="invisible display:none">
+                                    <option value=" <?php echo $co?>"> <?php echo $co ?></option>
+                                </select>
                             <div class="col-xl-12 col-md-12 col-12 mb-3 p-0">
-                                <button type="button" class="btn btn_Asesor col-12">Enviar</button>
+                                <button type="submit" class="btn btn_Asesor col-12">Enviar</button>
                             </div>
-
+						</form>
                         </div>
                     </div>
                 </div>

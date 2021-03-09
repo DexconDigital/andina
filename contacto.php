@@ -41,22 +41,22 @@ $inmobiliaria = 'Andina Inmobiliaria';
                         <div class="col-12 text-justify">
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-6">
-                                    <form>
+                                    <form action="email/enviarCorreo.php" method="POST">
                                         <div class="form-group font-weight-bold">
                                             <label for="exampleInputEmail1 ">Nombre Completo</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" name="nombre" aria-describedby="emailHelp" required>
                                         </div>
                                         <div class="form-group font-weight-bold">
                                             <label for="exampleInputEmail1">Correo Electrónico</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" name="correo" aria-describedby="emailHelp" required>
                                         </div>
                                         <div class="form-group font-weight-bold">
                                             <label for="exampleInputEmail1">Celular ó Teléfono</label>
-                                            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                            <input type="number" class="form-control" id="exampleInputEmail1" name="telefono" aria-describedby="emailHelp" required>
                                         </div>
                                         <div class="form-group font-weight-bold">
                                             <label for="exampleFormControlTextarea1">Mensaje</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox mb-4">

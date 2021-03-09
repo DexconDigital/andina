@@ -87,7 +87,7 @@
                                 <input type="text" placeholder="Nombre" name="nombre" class="form-control" requiered="">
                             </div>
                             <div class="form-group col-12">
-                                <input type="mail" placeholder="Correo" name="email" class="form-control" required="">
+                                <input type="mail" placeholder="Correo" name="correo" class="form-control" required="">
                             </div>
                             <div class="form-group col-12">
                                 <input type="Telefono" placeholder="Teléfono" name="telefono" class="form-control" requiered="">
@@ -135,9 +135,9 @@
                             </div>
                             <div class="form-group col-12">
                                 <div class="custom-control custom-checkbox mb-4">
-                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                                    <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="" target="_blanck"> política de tratamiento de datos personales.</a></label>
-                                </div>
+                                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy2" required>
+                                                <label class="custom-control-label" for="defaultContactFormCopy2">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                            </div>
                             </div>
                             <div class="form-group col-12">
                                 <button type="submit" class="btn btn_buscar">Enviar</button>
