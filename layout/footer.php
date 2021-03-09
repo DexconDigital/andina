@@ -10,7 +10,7 @@
                     <div class="col-12 col-md-4 col-lg-4">
                         <h5 class="font-weight-bold">Datos de contacto</h5>
                         <div class="col-12 mb-3 p-0">
-                            <i class="fas fa-map-marker-alt icon"></i> <a id="link"> Andina Inmobiliaria S.A.S, M.A.V.U No 0006/11SGM.</a>
+                            <i class="fas fa-id-card icon"></i> <a id="link"> Andina Inmobiliaria S.A.S, M.A.V.U No 0006/11SGM.</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
                             <i class="fas fa-location-arrow icon"></i> <a id="link" href="https://www.google.com/maps/place/204+Oficina,+Cra.+83+%2332-64,+Medell%C3%ADn,+Antioquia/@6.2342548,-75.6083956,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429917f42915b:0x436ecd39c4f046b!8m2!3d6.2342495!4d-75.6062069" target="_blank"> Carrera 81 No 32 – 204 Oficina 322ª Nueva Villa del Aburra Medellín - Antioquia</a>
