@@ -135,7 +135,7 @@
                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                          <a class="dropdown-item color_option_clientes" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=984&tipo=2" target="_blanck">Arrendatarios</a>
                          <a class="dropdown-item color_option_clientes" href="https://www.simiinmobiliarias.com/base/simired/simidocs/index.php?inmo=984&tipo=1" target="_blank">Propietarios</a>
-                         <a class="dropdown-item color_option_clientes" href="#">Pagos PSE</a>
+                         <!--<a class="dropdown-item color_option_clientes" href="#">Pagos PSE</a>-->
                      </div>
                  </li>
                  <li class="nav-item linea mr-2">
