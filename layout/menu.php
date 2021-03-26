@@ -146,9 +146,9 @@
                                                 } ?>">
                      <a class="nav-link" href="contacto.php">Contáctenos</a>
                  </li>
-                 <li class="nav-item mr-2">
+                 <!--<li class="nav-item mr-2">
                      <a class="nav-link pb-0" href="#"><img class="logo_pse" src="images/pse_blanco.png" alt=""></a>
-                 </li>
+                 </li>-->
              </ul>
          </div>
      </nav>
