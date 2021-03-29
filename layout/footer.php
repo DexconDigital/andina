@@ -44,12 +44,18 @@
                     </div>
                     <!-- formualrios -->
                     <div class="col-12 col-md-4 col-lg-4">
-                        <h5 class="font-weight-bold"> Descarga de formularios Libertador</h5>
+                        <h5 class="font-weight-bold"> Descarga de formularios</h5>
                         <div class="col-12 mb-3 p-0">
-                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Natural.pdf" target="_blank">Persona Natural</a>
+                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Natural.pdf" target="_blank">Libertador Persona Natural</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
-                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Jurídica.pdf" target="_blank">Persona Jurídica</a>
+                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Jurídica.pdf" target="_blank">Libertador Persona Jurídica</a>
+                        </div>
+						<div class="col-12 mb-3 p-0">
+                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA NATURAL.pdf" target="_blank">Sura Persona Jurídica</a>
+                        </div>
+						<div class="col-12 mb-3 p-0">
+                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA JURIDICA.pdf" target="_blank">Sura Persona Jurídica</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/TABLA_DE_ESTUDIOS_MEDELLIN_2019.pdf" target="_blank">Valores Estudio</a>
@@ -65,7 +71,7 @@
 <!-- segund div -->
 <div class="footer-bottom-area">
     <div class="container  text-center footer2">
-        <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com" target="_blanck">Dexcon Digital.</a>©Copyright 2020 para Andina Inmobiliaria.
+        <p class="copy_style">Diseñado y Desarrollado por <a class="color_a_foot_imper" href="https://www.dexcondigital.com" target="_blanck">Dexcon Digital.</a>©Copyright 2021 para Andina Inmobiliaria.
             Todos los derechos reservados. <a href="" class="color_a_foot_imper">Politica de Datos</a> </p>
     </div>
 </div>
