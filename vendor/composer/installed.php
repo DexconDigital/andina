@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '92c63a6e3e113cb9409cc2e1fc98696d478b0424',
+    'reference' => 'ba52c3dfb46a1f476a26a05e9a204d93f8384aa3',
     'name' => 'vendor/daniel',
   ),
   'versions' => 
@@ -22,12 +22,12 @@
     ),
     'phpmailer/phpmailer' => 
     array (
-      'pretty_version' => 'v6.3.0',
-      'version' => '6.3.0.0',
+      'pretty_version' => 'v6.4.1',
+      'version' => '6.4.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '4a08cf4cdd2c38d12ee2b9fa69e5d235f37a6dcb',
+      'reference' => '9256f12d8fb0cd0500f93b19e18c356906cbed3d',
     ),
     'vendor/daniel' => 
     array (
@@ -36,7 +36,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '92c63a6e3e113cb9409cc2e1fc98696d478b0424',
+      'reference' => 'ba52c3dfb46a1f476a26a05e9a204d93f8384aa3',
     ),
   ),
 );

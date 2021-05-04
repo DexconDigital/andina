@@ -52,7 +52,7 @@
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Jurídica.pdf" target="_blank">Libertador Persona Jurídica</a>
                         </div>
 						<div class="col-12 mb-3 p-0">
-                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA NATURAL.pdf" target="_blank">Sura Persona Jurídica</a>
+                            <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA NATURAL.pdf" target="_blank">Sura Persona Natural</a>
                         </div>
 						<div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA JURIDICA.pdf" target="_blank">Sura Persona Jurídica</a>
