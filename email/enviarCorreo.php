@@ -15,21 +15,19 @@ if ($_POST) {
 
 }
 
-$mail = new PHPMailer(true);
+$mail = new PHPMailer;
 
 try{
     $mail->isSMTP();
 
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'mail.andinainmobiliaria.com';
     $mail->SMTPAuth = true;
     //acceso
     $mail->CharSet = 'UTF-8';
-    $mail->Username = 'masivoinmobiliarias@gmail.com';
-    $mail->Password = 'D3xc0n2020@';
-
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
-
+    $mail->Username = '_mainaccount@andinainmobiliaria.com';
+    $mail->Password = '4sO1a9pp4A';
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port = 465;
 	$mail->SMTPOptions = array(
                 'ssl' => array(
                 'verify_peer' => false,
@@ -41,9 +39,9 @@ try{
     
     $mail->isHTML(true);
     //Cabecera
-    $mail->setFrom('web@andinainmobiliaria.com', 'web@andinainmobiliaria.com');
+    $mail->setFrom('andinai1@andinainmobiliaria.com', 'Andina Inmobiliaria');
     //destinos
-    $mail->addAddress('gestion@dexcondigital.com'); 
+    $mail->addAddress('info@andinainmobiliaria.com');
     //  $mail->addAddress('wdsp9898@gmail.com');
     //  $mail->addAddress('desarrollo2@dexcondigital.com');
     //  $mail->addAddress('comunicaciones@maestranza.com.co');
@@ -63,5 +61,5 @@ try{
     <script>alert('Mensaje enviado, muchas gracias.');window.location.href='../contacto.php'</script>";
           
 }catch(Exception $e){
-    echo 'algo salio mal' , $e->getMessage();
+    echo 'algo salio mal ' , $e->getMessage();
 }

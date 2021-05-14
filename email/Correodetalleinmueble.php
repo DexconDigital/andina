@@ -12,27 +12,27 @@ if ($_POST) {
     $mensaje = $_POST['mensaje'];
     $codigo = $_POST['codigo'];
     $nom_asesor = $_POST['nom_asesor'];
-    $correo_asesor = $_POST['correo'];
+    $correo_asesor = $_POST['correo_asesor'];
     
     
 }
 
-// echo $nombre,' ',$email,' ',$telefono,' ',$mensaje,' ',$codigo,' ',$nom_asesor,' ',$correo_asesor;
-// die();
+//echo $nombre,' ',$email,' ',$telefono,' ',$mensaje,' ',$codigo,' ',$nom_asesor,' ',$correo_asesor;
+//die();
 
-$mail = new PHPMailer(true);
+$mail = new PHPMailer;
 
 try{
     $mail->isSMTP();
 
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'mail.andinainmobiliaria.com';
     $mail->SMTPAuth = true;
+    //acceso
     $mail->CharSet = 'UTF-8';
-    $mail->Username = 'masivoinmobiliarias@gmail.com';
-    $mail->Password = 'D3xc0n2020@';
-
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
+    $mail->Username = '_mainaccount@andinainmobiliaria.com';
+    $mail->Password = '4sO1a9pp4A';
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port = 465;
 	
 	$mail->SMTPOptions = array(
                 'ssl' => array(
@@ -45,9 +45,9 @@ try{
     // Mensaje para enviar
     
     $mail->isHTML(true);
-    $mail->setFrom('web@andinainmobiliaria.com', 'web@andinainmobiliaria.com');
-    //$mail->addAddress($correo_asesor); 
-	$mail->addAddress('gestion@dexcondigital.com'); 
+    $mail->setFrom('andinai1@andinainmobiliaria.com', 'Andina Inmobiliaria');
+    $mail->addAddress($correo_asesor); 
+    //$mail->addAddress('gestion@dexcondigital.com'); 
 
     $mail->Subject='Mensaje desde la página web detalle de inmueble del sitio web Andina Inmobiliaria';
     $mail->Body = '<span>Hola '.$nom_asesor.' , '.$nombre.' quiere recibir información sobre el inmueble con código: '.$codigo.'.</span>
