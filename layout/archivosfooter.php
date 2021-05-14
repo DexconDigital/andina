@@ -5,6 +5,6 @@
 <script src="js/iconos.js"></script>
 <script src="js/all.js"></script>
 <script src="js/scripts.js"></script>
-<!--  CONEXION API -->
+<!--  CONEXION API 
 <script src="conexion_api/token_api.js"></script>
-<script src="conexion_api/validadores.js"></script>
+<script src="conexion_api/validadores.js"></script>-->
