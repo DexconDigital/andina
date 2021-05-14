@@ -170,9 +170,6 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 <div class="item animacion_logo" style="height: 180px;">
                                     <a href="" target="_blank"><img style="height: 55%; object-fit: contain;" src="images/fenalco.png" alt=""></a>
                                 </div>
-								<div class="item animacion_logo" style="height: 180px;">
-                                    <a href="" target="_blank"><img style="height: 55%; object-fit: contain;" src="images/sura.png" alt=""></a>
-                                </div>
 
                             </div>
                         </div>

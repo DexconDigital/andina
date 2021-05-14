@@ -202,10 +202,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                     <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                 </div>
                             </div>
-							<select name="correo_asesor" class="invisible display:none">
-                                    option value=" <?php echo $asesor['ntercero']; ?>"> <?php echo $asesor['ntercero']; ?></option>
+							<select name="nom_asesor" class="invisible display:none">
+                                    <option value=" <?php echo $asesor['ntercero']; ?>"> <?php echo $asesor['ntercero']; ?></option>
                                 </select>
-                                <select name="nom_asesor" class="invisible display:none">
+                                <select name="correo_asesor" class="invisible display:none">
                                     <option value=" <?php echo $asesor['correo']; ?>"> <?php echo $asesor['correo']; ?></option>
                                 </select>
                                 <select name="codigo" class="invisible display:none">
@@ -259,8 +259,8 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                 <li>Código: <?php echo $co; ?></li>
                                 <li>Alcobas: <?php echo $alcobas; ?></li>
                                 <li>Baños: <?php echo $banios; ?></li>
-                                <li>Área Construida: <?php echo $area_construida; ?>m<sup>2<sup></li>
-                                <li>Área Privada: <?php echo $area_privada; ?>m<sup>2<sup></li>
+                                <li>Área Construida: <?php echo $area_construida; ?>m<sup>2</sup></li>
+                                <li>Área Privada: <?php echo $area_privada; ?>m<sup>2</sup></li>
                                 <li>Garaje: <?php echo $garaje; ?></li>
                                 <li>Estrato: <?php echo $estrato; ?></li>
                                 <li>Edad Inmueble: <?php echo $edad_inmueble; ?> años</li>
