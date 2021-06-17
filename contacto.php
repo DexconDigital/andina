@@ -1,5 +1,7 @@
 <?php
 require 'variables/variables.php';
+require_once 'variables/captcha.php';
+$WebK = Web_Key;
 $pagina = 'Contacto';
 $inmobiliaria = 'Andina Inmobiliaria';
 ?>
@@ -9,14 +11,17 @@ $inmobiliaria = 'Andina Inmobiliaria';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pagina . ' | ' . $inmobiliaria; ?></title>
-    <?php include 'layout/archivosheader.php'; ?>
+    <title><?php echo $pagina . ' | ' . $inmobiliaria;
+?></title>
+    <?php include 'layout/archivosheader.php';
+?>
 </head>
 
 <body>
     <!-- menu -->
     <section>
-        <?php include 'layout/menu.php'; ?>
+        <?php include 'layout/menu.php';
+?>
     </section>
 
     <!-- banner de entrada -->
@@ -64,6 +69,10 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                                 <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
                                             </div>
                                         </div>
+                                        <div class="form-group">
+                                            <div class="g-recaptcha col-12" data-sitekey="<?php echo $WebK ?>" required></div>
+                                            <div class="col-12 mb-4"><small id="tituloHepl" class="form-text text-muted">Este campo es obligatorio</small></div>
+                                        </div>
                                         <div class="text-center">
                                             <button type="submit" class="btn btn_enviar col-6">Enviar</button>
                                         </div>
@@ -78,7 +87,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                             <i class="fa fa-mobile-alt icon"></i><a id="link" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"> 300 543 07 22</a>
                                         </div>
                                         <div class="col-12 mb-5 container">
-                                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 (4) 444 52 32</a>
+                                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 ( 4 ) 444 52 32</a>
                                         </div>
                                         <div class="col-12 mb-5 container">
                                             <i class="fab fa-whatsapp icon"></i><a id="link" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"> 300 543 07 22</a>
@@ -117,12 +126,13 @@ $inmobiliaria = 'Andina Inmobiliaria';
         </div>
     </section>
 
-
     <!-- footer -->
     <section class="propiedades mt-4 pt-0" id="footer">
-        <?php include 'layout/footer.php'; ?>
+        <?php include 'layout/footer.php';?>
     </section>
 </body>
-<?php include 'layout/archivosfooter.php'; ?>
+<?php include 'layout/archivosfooter.php';?>
+<!-- composer require google/recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 </html>
