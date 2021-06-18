@@ -8,3 +8,5 @@
 <!--  CONEXION API 
 <script src="conexion_api/token_api.js"></script>
 <script src="conexion_api/validadores.js"></script>-->
+<!-- composer require google/recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js"></script>

@@ -1,3 +1,7 @@
+<?php
+require_once 'variables/captcha.php';
+$WebK = Web_Key;
+?>
 <!-- boton subir -->
 <i class="fas fa-angle-up subir"></i>
 <!-- primer div -->
@@ -19,7 +23,7 @@
                             <i class="fa fa-mobile-alt icon"></i><a id="link" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"> 300 543 07 22</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
-                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 (4) 444 52 32</a>
+                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 ( 4 ) 444 52 32</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
                             <i class="fab fa-whatsapp icon"></i><a id="link" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"> 300 543 07 22</a>
@@ -51,10 +55,10 @@
                         <div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/Formulario Persona Jurídica.pdf" target="_blank">Libertador Persona Jurídica</a>
                         </div>
-						<div class="col-12 mb-3 p-0">
+                        <div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA NATURAL.pdf" target="_blank">Sura Persona Natural</a>
                         </div>
-						<div class="col-12 mb-3 p-0">
+                        <div class="col-12 mb-3 p-0">
                             <i class="far fa-file-pdf icon"></i> <a id="link" href="archivos/FORMULARIO SURA PERSONA JURIDICA.pdf" target="_blank">Sura Persona Jurídica</a>
                         </div>
                         <div class="col-12 mb-3 p-0">
@@ -83,7 +87,8 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Consignar Inmueble</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">&times;
+                        </span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -141,9 +146,13 @@
                             </div>
                             <div class="form-group col-12">
                                 <div class="custom-control custom-checkbox mb-4">
-                                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy2" required>
-                                                <label class="custom-control-label" for="defaultContactFormCopy2">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
-                                            </div>
+                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy2" required>
+                                    <label class="custom-control-label" for="defaultContactFormCopy2">Confimo que he leído, entendido y acepto la<a class="politica" href="Politica_de_datos.pdf" download="Politica de tratamiento de infromación.pdf"> política de tratamiento de datos personales.</a></label>
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <div class="g-recaptcha col-12" data-sitekey="<?php echo $WebK ?>" required></div>
+                                <div class="col-12 mb-4"><small id="tituloHepl" class="form-text text-muted">Este campo es obligatorio</small></div>
                             </div>
                             <div class="form-group col-12">
                                 <button type="submit" class="btn btn_buscar">Enviar</button>
