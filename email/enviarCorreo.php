@@ -54,11 +54,10 @@ function enviar() {
                         <li>Correo: '.$email.'</li>
                         <li>Teléfono: '.$telefono.'</li>
                         <li>Mensaje: '.$mensaje.'</li>
-                    </ul>
-    ';
+                    </ul>';
         $mail->send();
         echo "
-    <script>alert('Mensaje enviado, muchas gracias.');window.location.href='../contacto.php'</script>";
+        <script>alert('Mensaje enviado, muchas gracias.');window.location.href='../contacto.php'</script>";
 
     } catch( Exception $e ) {
         echo 'algo salio mal ', $e->getMessage();
