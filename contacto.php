@@ -132,7 +132,4 @@ $inmobiliaria = 'Andina Inmobiliaria';
     </section>
 </body>
 <?php include 'layout/archivosfooter.php';?>
-<!-- composer require google/recaptcha -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
-
 </html>
