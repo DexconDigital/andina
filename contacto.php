@@ -87,7 +87,7 @@ $inmobiliaria = 'Andina Inmobiliaria';
                                             <i class="fa fa-mobile-alt icon"></i><a id="link" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"> 300 543 07 22</a>
                                         </div>
                                         <div class="col-12 mb-5 container">
-                                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>">+57 ( 4 ) 444 52 32</a>
+                                            <i class="fa fa-phone icon"></i> <a id="link" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?></a>
                                         </div>
                                         <div class="col-12 mb-5 container">
                                             <i class="fab fa-whatsapp icon"></i><a id="link" href="<?php echo $datos_contacto['whatsapp']['link'] ?>" target="_blank"> 300 543 07 22</a>
